@@ -1,0 +1,27 @@
+@font-face {
+    src: url(../fonts/gido/gidolinya.woff);
+    font-family: "Gidolinya";
+}
+
+@function theme($color) {
+    @return map-get($theme-colors, $color);
+}
+
+@function typograph($font) {
+    @return map-get($typography-guide, $font);
+}
+
+// Color
+$theme-colors: (
+    "main": #3c6170,
+    "sub": #ead4a0,
+    "tri": #d3e6ec,
+    "tetra": #d2d3f1,
+    "penta": #0088e8
+);
+
+$typography-guide: (
+    "title-main": "Gidolinya",
+    "subtitle-main": "Cabin",
+    "paragraph-main": "Cabin"
+);

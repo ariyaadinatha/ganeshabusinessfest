@@ -1,136 +1,6 @@
-@extends("template.main")
+@extends("template.section")
 
 @section('content')
-<!-- ***** Welcome Area Start ***** -->
-<section class="section">
-
-
-    <!-- ***** Header Text Start ***** -->
-    <!--
-    <div class="header-text">
-        <div class="container">
-            <div class="row">
-                <div class="left-text col-lg-6 col-md-6 col-sm-12 col-xs-12" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
-                    <h1>Lorem Ipsum dolor <strong>sit Amet</strong></h1>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat nam, officia esse, repellat voluptate quos fugiat distinctio, veniam molestias consequatur eius optio dignissimos necessitatibus veritatis officiis itaque repudiandae aspernatur alias. </p>
-                    <a href="#about" class="main-button-slider">Find Out More</a>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
-                    <img src="/images/slider-icon.png" class="rounded img-fluid d-block mx-auto" alt="First Vector Graphic">
-                </div>
-            </div>
-        </div>
-    </div>
-    -->
-    <!-- ***** Header Text End ***** -->
-
-    <!-- ***** Carousel Start ***** -->
-    <div id="carouselExampleIndicators" class="carousel slide header-text" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="d-block vh-100 vw-100" src="/images/carousel1.jpg" alt="First slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block vh-100 vw-100" src="/images/carousel2.jpg" alt="Second slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block vh-100 vw-100" src="/images/carousel3.jpg" alt="Third slide">
-          </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" onclick="$('#carouselExampleIndicators').carousel('prev')" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" onclick="$('#carouselExampleIndicators').carousel('next')" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-    </div>
-
-
-
-    <!-- ***** Carousel End ***** -->
-
-</section>
-<!-- ***** Welcome Area End ***** -->
-
-
-<!-- ***** Features Big Item Start ***** -->
-<!--
-<section class="section" id="about">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-7 col-md-12 col-sm-12" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
-                <img src="/images/about-sec.png" class="rounded img-fluid d-block mx-auto" alt="App">
-            </div>
-            <div class="right-text col-lg-5 col-md-12 col-sm-12 mobile-top-fix">
-                <div class="left-heading">
-                    <h2>What is Ganesha Business Festival ?</h2>
-                </div>
-                <div class="left-text text-justify">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates error ratione illo voluptatem rerum, eius aperiam ut nihil odio debitis neque delectus hic autem. Rem sit officiis laborum similique vitae!</p>
-                    <a href="#about2" class="main-button">Discover More</a>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="hr"></div>
-            </div>
-        </div>
-    </div>
-</section>
--->
-<!-- ***** Features Big Item End ***** -->
-
-
-<!-- ***** Features Big Item Start ***** -->
-<div id="events">
-    <section class="section event-bg" id="about2">
-        <div class="container">
-            <div class="row">
-                <div class="left-text col-lg-5 col-md-12 col-sm-12 mobile-bottom-fix ">
-                    <div class="left-heading">
-                        <h2>Events</h2>
-                    </div>
-                    <p class="text-justify">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae reprehenderit dolorem, iure unde maxime cum nihil optio. Minus molestiae, hic, praesentium et, laudantium distinctio quis facere doloribus sint asperiores eveniet.</p>
-                    <ul>
-                        <li>
-                            <img src="/images/about-icon-01.png" alt="">
-                            <div class="text">
-                                <a href="/event/preevent"> <h6>Pre-Event</h6> </a>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae reprehenderit dolorem, adipisicing elit.</p>
-                            </div>
-                        </li>
-                        <li>
-                            <img src="/images/about-icon-02.png" alt="">
-                            <div class="text">
-                                <a href="/event/exhibition"> <h6>Exhibition</h6> </a>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae reprehenderit dolorem, adipisicing elit.</p>
-                            </div>
-                        </li>
-                        <li>
-                            <img src="/images/about-icon-03.png" alt="">
-                            <div class="text">
-                                <a href="/event/awarding"> <h6>Awarding</h6> </a>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae reprehenderit dolorem, adipisicing elit.</p>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="right-image col-lg-7 col-md-12 col-sm-12 mobile-bottom-fix-big" data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
-                    <img src="/images/right-image.png" class="rounded img-fluid d-block mx-auto" alt="App">
-                </div>
-            </div>
-        </div>
-    </section>
-</div>
-<!-- ***** Features Big Item End ***** -->
 
 <!-- ***** Features Big Item Start ***** -->
 <section class="section bcc-bg" id="bcc">
@@ -138,44 +8,27 @@
         <div class="row">
             
             <div class="col-lg-7 col-md-12 col-sm-12" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
-                <img src="/images/left-image.png" class="rounded img-fluid d-block mx-auto" alt="App">
+
+                <div class="card">
+                  <img class="#" src="/images/box.png" alt="Card image cap" height=450px>
+                  <div class="card-body">
+                    <h5 class="card-title text-center">Speaker Name</h5>
+                  </div>
+                </div>
             </div>
             <div class="right-text col-lg-5 col-md-12 col-sm-12 mobile-top-fix">
                 <div class="left-heading">
-                    <h2>Business Case Competition!</h2>
+                    <h2>Pre-Event</h2>
                 </div>
                 <div class="left-text text-justify">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates error ratione illo voluptatem rerum, eius aperiam ut nihil odio debitis neque delectus hic autem. Rem sit officiis laborum similique vitae!</p>
                     <!-- <a href="#about2" class="main-button">Discover More</a> -->
+                    <div class="text-left">
+                        <a href="#" class="main-button">Register</a>
+                    </div>
                 </div>
             </div>
 
-            <div class="col-lg-6 col-md-12 col-sm-12 mobile-bottom-fix d-flex align-items-stretch" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
-                <div class="card">
-                  <img class="card-img-top" src="/images/slider-icon.png" alt="Card image cap" height=500px>
-                  <div class="card-body">
-                    <h5 class="card-title text-center">SHS Competition</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <div class="text-center">
-                        <a href="#" class="main-button">Register</a>
-                        <a href="#" class="main-button">Guideline</a>
-                    </div>
-                  </div>
-                </div>
-            </div>
-            <div class="col-lg-6 col-md-12 col-sm-12 mobile-bottom-fix d-flex align-items-stretch" data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
-                <div class="card">
-                  <img class="card-img-top" src="/images/right-image.png" alt="Card image cap" height=500px>
-                  <div class="card-body">
-                    <h5 class="card-title text-center">Undergrad Student Competition</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <div class=text-center>
-                        <a href="#" class="main-button">Register</a>
-                        <a href="#" class="main-button">Guideline</a>
-                    </div>
-                  </div>
-                </div>
-            </div>
     </div>
 </section>
 <!-- ***** Features Big Item End ***** -->
@@ -378,26 +231,23 @@
 <!-- ***** Frequently Question End ***** -->
 
 
-
 @endsection
-    
+
 @section('script')
-<!-- jQuery -->
-<script src="js/jquery-2.1.0.min.js"></script>
-
-<!-- Bootstrap -->
-<script src="js/popper.js"></script>
-<script src="js/bootstrap.min.js"></script>
-
-<!-- Plugins -->
-<script src="js/owl-carousel.js"></script>
-<script src="js/scrollreveal.min.js"></script>
-<script src="js/waypoints.min.js"></script>
-<script src="js/jquery.counterup.min.js"></script>
-<script src="js/imgfix.min.js"></script> 
+    <!-- jQuery -->
+    <script src="../js/jquery-2.1.0.min.js"></script>
     
-<!-- Global Init -->
-<script src="js/custom.js"></script>
-
-
+    <!-- Bootstrap -->
+    <script src="../js/popper.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    
+    <!-- Plugins -->
+    <script src="../js/owl-carousel.js"></script>
+    <script src="../js/scrollreveal.min.js"></script>
+    <script src="../js/waypoints.min.js"></script>
+    <script src="../js/jquery.counterup.min.js"></script>
+    <script src="../js/imgfix.min.js"></script> 
+        
+    <!-- Global Init -->
+    <script src="../js/custom.js"></script>
 @endsection

@@ -19,6 +19,16 @@ Route::get('/home', function() {return redirect()->to("/landing");});
 
 
 Route::get('/landing', 'PageRequestController@viewLanding');
+Route::get('/about', 'PageRequestController@viewAbout');
+
+// Event
+Route::get('/event/awarding', 'PageRequestController@viewAwarding');
+Route::get('/event/exhibition', 'PageRequestController@viewExhibition');
+Route::get('/event/preevent', 'PageRequestController@viewPreevent');
+
+// BCC
+Route::get('/bcc/shs', 'PageRequestController@viewShs');
+Route::get('/bcc/undergraduate', 'PageRequestController@viewUndergraduate');
 
 Auth::routes();
 
