@@ -1,33 +1,34 @@
 @extends("template.section")
 
+@section('jumbotronImage', '../images/section-bg.png')
+@section('title', 'Pre-Event')
+@section('subtitle', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis molestias deleniti explicabo dicta quod, animi assumenda distinctio aliquid labore mollitia, repellat sint voluptatibus numquam culpa incidunt velit! Optio, quibusdam nisi!')
+
 @section('content')
 
 <!-- ***** Features Big Item Start ***** -->
+
+<a href="#bcc" id="toTopBtn" class="cd-top text-replace js-cd-top cd-top--is-visible cd-top--fade-out" data-abc="true"></a>
 <section class="section bcc-bg" id="bcc">
     <div class="container">
         <div class="row">
-            
-            <div class="col-lg-7 col-md-12 col-sm-12" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
-
-                <div class="card">
-                  <img class="#" src="/images/box.png" alt="Card image cap" height=450px>
-                  <div class="card-body">
-                    <h5 class="card-title text-center">Speaker Name</h5>
-                  </div>
+            <div class="col-lg-12">
+                <div class="section-heading">
+                    <h2>Speaker</h2>
+                    <hr>
                 </div>
             </div>
-            <div class="right-text col-lg-5 col-md-12 col-sm-12 mobile-top-fix">
-                <div class="left-heading">
-                    <h2>Pre-Event</h2>
-                </div>
-                <div class="left-text text-justify">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates error ratione illo voluptatem rerum, eius aperiam ut nihil odio debitis neque delectus hic autem. Rem sit officiis laborum similique vitae!</p>
-                    <!-- <a href="#about2" class="main-button">Discover More</a> -->
-                    <div class="text-left">
-                        <a href="#" class="main-button">Register</a>
+
+            <div class="col-lg-12 col-md-12 col-sm-12 d-flex justify-content-center" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+                <div class="card" style="width: 40rem;">
+                  <img class="card" src="/images/event/speaker/steve.png" alt="Card image cap">
+                    <div class="card-body text-center">
+                        <h2>Speaker Name</h2>
+                      <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
                 </div>
             </div>
+
 
     </div>
 </section>
@@ -41,17 +42,13 @@
             <div class="col-lg-12">
                 <div class="section-heading">
                     <h2>Timeline</h2>
-                </div>
-            </div>
-            <div class="offset-lg-3 col-lg-6">
-                <div class="section-heading">
-                    <p>Vivamus venenatis eu mi ac mattis. Maecenas ut elementum sapien. Nunc euismod risus ac lobortis congue. Sed erat quam.</p>
+                    <hr>
                 </div>
             </div>
         </div>
         <!-- ***** Section Title End ***** -->
 
-        <div class="row">
+        <div class="row pt-5">
             <div class="col-lg-12 col-md-12 col-sm-12 mobile-bottom-fix" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
                 <ul class="timeline timeline-centered">
                     <li class="timeline-item">
@@ -122,11 +119,7 @@
             <div class="col-lg-12">
                 <div class="section-heading">
                     <h2>Frequently Asked Questions</h2>
-                </div>
-            </div>
-            <div class="offset-lg-3 col-lg-6">
-                <div class="section-heading">
-                    <p>Vivamus venenatis eu mi ac mattis. Maecenas ut elementum sapien. Nunc euismod risus ac lobortis congue. Sed erat quam.</p>
+                    <hr>
                 </div>
             </div>
         </div>
@@ -229,7 +222,18 @@
     </div>
 </section>
 <!-- ***** Frequently Question End ***** -->
-
+<section class="section register-bg" id="services">
+        <div class="container" id="sponsor">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="text-center">
+                        <a href="#" class="section-button">Register</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+<!-- ***** Register End ***** -->
 
 @endsection
 

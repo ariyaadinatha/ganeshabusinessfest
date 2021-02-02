@@ -8,6 +8,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+      <!-- Favicons -->
+    <link href="{{ URL::asset('images/logo.png') }}" rel="icon">
+    <link href="{{ URL::asset('images/logo.png') }}" rel="apple-touch-icon">
+
+
     <title>Ganesha Business Festival</title>
 
     <!-- Additional CSS Files -->
@@ -27,7 +33,7 @@
                     <nav class="main-nav navbar">
                         <!-- ***** Logo Start ***** -->
                           <a class="navbar-brand" href="/landing">
-                            <img src="{{ URL::asset('images/logo.png') }}" width="30" height="30" alt="">
+                            <img src="{{ URL::asset('images/gbf.png') }}" width="100px" height="60px" alt="">
                           </a>
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
@@ -51,20 +57,6 @@
                             <li class="scroll-to-section"><a href="#timeline">Timeline</a></li>
                             <li class="scroll-to-section"><a href="#frequently-question">FAQ</a></li>
                             <li class="scroll-to-section"><a href="/about">About</a></li>
-                            
-                            <!--
-                                <li class="scroll-to-section"><a href="#services">Services</a></li>
-                                <li class="submenu">
-                                    <a href="javascript:;">Drop Down</a>
-                                    <ul>
-                                        <li><a href="">About Us</a></li>
-                                        <li><a href="">Features</a></li>
-                                        <li><a href="">FAQ's</a></li>
-                                        <li><a href="">Blog</a></li>
-                                    </ul>
-                                </li>
-                            -->
-
                         </ul>
                         <a class='menu-trigger'>
                             <span>Menu</span>
@@ -76,7 +68,6 @@
         </div>
     </header>
     <!-- ***** Header Area End ***** -->
-
     @yield('content')
 
     <!-- ***** Features Small Start ***** -->
@@ -86,11 +77,7 @@
                 <div class="col-lg-12">
                     <div class="section-heading">
                         <h2>Sponsor</h2>
-                    </div>
-                </div>
-                <div class="offset-lg-3 col-lg-6">
-                    <div class="section-heading">
-                        <p>Vivamus venenatis eu mi ac mattis. Maecenas ut elementum sapien. Nunc euismod risus ac lobortis congue. Sed erat quam.</p>
+                        <hr>
                     </div>
                 </div>
             </div>
@@ -133,6 +120,5 @@
     </footer>
 
     @yield('script')
-
   </body>
 </html>

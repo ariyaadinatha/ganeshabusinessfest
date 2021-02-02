@@ -10,17 +10,9 @@ $primary-color-hover: scale-color($primary-color, $lightness: 32%);
 #timeline {
     line-height: 1.4em;
     list-style: none;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding-top: 120px;
     width: 100%;
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-        line-height: inherit;
-    }
     .section-heading {
         p {
             margin-bottom: 80px;

@@ -1,6 +1,7 @@
 @extends("template.main")
 
 @section('content')
+
 <!-- ***** Welcome Area Start ***** -->
 <section class="section">
 
@@ -61,71 +62,45 @@
 
 
 <!-- ***** Features Big Item Start ***** -->
-<!--
-<section class="section" id="about">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-7 col-md-12 col-sm-12" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
-                <img src="/images/about-sec.png" class="rounded img-fluid d-block mx-auto" alt="App">
-            </div>
-            <div class="right-text col-lg-5 col-md-12 col-sm-12 mobile-top-fix">
-                <div class="left-heading">
-                    <h2>What is Ganesha Business Festival ?</h2>
-                </div>
-                <div class="left-text text-justify">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates error ratione illo voluptatem rerum, eius aperiam ut nihil odio debitis neque delectus hic autem. Rem sit officiis laborum similique vitae!</p>
-                    <a href="#about2" class="main-button">Discover More</a>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="hr"></div>
-            </div>
-        </div>
-    </div>
-</section>
--->
-<!-- ***** Features Big Item End ***** -->
-
-
-<!-- ***** Features Big Item Start ***** -->
+<a href="#events" id="toTopBtn" class="cd-top text-replace js-cd-top cd-top--is-visible cd-top--fade-out" data-abc="true"></a>
 <div id="events">
     <section class="section event-bg" id="about2">
         <div class="container">
             <div class="row">
-                <div class="left-text col-lg-5 col-md-12 col-sm-12 mobile-bottom-fix ">
-                    <div class="left-heading">
+                <div class="col-lg-12">
+                    <div class="section-heading">
                         <h2>Events</h2>
+                        <hr>
                     </div>
-                    <p class="text-justify">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae reprehenderit dolorem, iure unde maxime cum nihil optio. Minus molestiae, hic, praesentium et, laudantium distinctio quis facere doloribus sint asperiores eveniet.</p>
-                    <ul>
-                        <li>
-                            <img src="/images/about-icon-01.png" alt="">
-                            <div class="text">
-                                <a href="/event/preevent"> <h6>Pre-Event</h6> </a>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae reprehenderit dolorem, adipisicing elit.</p>
-                            </div>
-                        </li>
-                        <li>
-                            <img src="/images/about-icon-02.png" alt="">
-                            <div class="text">
-                                <a href="/event/exhibition"> <h6>Exhibition</h6> </a>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae reprehenderit dolorem, adipisicing elit.</p>
-                            </div>
-                        </li>
-                        <li>
-                            <img src="/images/about-icon-03.png" alt="">
-                            <div class="text">
-                                <a href="/event/awarding"> <h6>Awarding</h6> </a>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae reprehenderit dolorem, adipisicing elit.</p>
-                            </div>
-                        </li>
-                    </ul>
                 </div>
-                <div class="right-image col-lg-7 col-md-12 col-sm-12 mobile-bottom-fix-big" data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
-                    <img src="/images/right-image.png" class="rounded img-fluid d-block mx-auto" alt="App">
+                <div class="col-lg-4 col-md-12 col-sm-12 mobile-bottom-fix d-flex align-items-stretch" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+                    <div class="card">
+                      <img class="card-img-top" src="/images/mun.png" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title text-center"> <a href="/event/preevent">Pre-Event </a></h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      </div>
+                    </div>
                 </div>
+                <div class="col-lg-4 col-md-12 col-sm-12 mobile-bottom-fix d-flex align-items-stretch" data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
+                    <div class="card">
+                      <img class="card-img-top" src="/images/mun.png" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title text-center"> <a href="/event/exhibition">Exhibition </a></h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12 mobile-bottom-fix d-flex align-items-stretch" data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
+                    <div class="card">
+                      <img class="card-img-top" src="/images/mun.png" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title text-center"> <a href="/event/awarding">Awarding </a></h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
@@ -137,16 +112,10 @@
     <div class="container">
         <div class="row">
             
-            <div class="col-lg-7 col-md-12 col-sm-12" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
-                <img src="/images/left-image.png" class="rounded img-fluid d-block mx-auto" alt="App">
-            </div>
-            <div class="right-text col-lg-5 col-md-12 col-sm-12 mobile-top-fix">
-                <div class="left-heading">
+            <div class="col-lg-12">
+                <div class="section-heading">
                     <h2>Business Case Competition!</h2>
-                </div>
-                <div class="left-text text-justify">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates error ratione illo voluptatem rerum, eius aperiam ut nihil odio debitis neque delectus hic autem. Rem sit officiis laborum similique vitae!</p>
-                    <!-- <a href="#about2" class="main-button">Discover More</a> -->
+                    <hr>
                 </div>
             </div>
 
@@ -154,7 +123,7 @@
                 <div class="card">
                   <img class="card-img-top" src="/images/slider-icon.png" alt="Card image cap" height=500px>
                   <div class="card-body">
-                    <h5 class="card-title text-center">SHS Competition</h5>
+                    <h5 class="card-title text-center"><a href="/bcc/shs"> SHS Competition </a></h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     <div class="text-center">
                         <a href="#" class="main-button">Register</a>
@@ -167,7 +136,7 @@
                 <div class="card">
                   <img class="card-img-top" src="/images/right-image.png" alt="Card image cap" height=500px>
                   <div class="card-body">
-                    <h5 class="card-title text-center">Undergrad Student Competition</h5>
+                    <h5 class="card-title text-center"><a href="/bcc/undergraduate">Undergrad Student Competition</a></h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     <div class=text-center>
                         <a href="#" class="main-button">Register</a>
@@ -184,21 +153,17 @@
 <section class="section timeline-bg" id="timeline">
     <div class="container">
         <!-- ***** Section Title Start ***** -->
-        <div class="row" id="timeline-heading">
+        <div class="row">
             <div class="col-lg-12">
                 <div class="section-heading">
                     <h2>Timeline</h2>
-                </div>
-            </div>
-            <div class="offset-lg-3 col-lg-6">
-                <div class="section-heading">
-                    <p>Vivamus venenatis eu mi ac mattis. Maecenas ut elementum sapien. Nunc euismod risus ac lobortis congue. Sed erat quam.</p>
+                    <hr>
                 </div>
             </div>
         </div>
         <!-- ***** Section Title End ***** -->
 
-        <div class="row">
+        <div class="row pt-5">
             <div class="col-lg-12 col-md-12 col-sm-12 mobile-bottom-fix" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
                 <ul class="timeline timeline-centered">
                     <li class="timeline-item">
@@ -269,11 +234,7 @@
             <div class="col-lg-12">
                 <div class="section-heading">
                     <h2>Frequently Asked Questions</h2>
-                </div>
-            </div>
-            <div class="offset-lg-3 col-lg-6">
-                <div class="section-heading">
-                    <p>Vivamus venenatis eu mi ac mattis. Maecenas ut elementum sapien. Nunc euismod risus ac lobortis congue. Sed erat quam.</p>
+                    <hr>
                 </div>
             </div>
         </div>

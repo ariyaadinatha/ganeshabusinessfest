@@ -1,21 +1,20 @@
-@extends("template.main")
+@extends("template.about")
 
 @section('content')
 
 <!-- ***** Features Big Item Start ***** -->
+<a href="#about" id="toTopBtn" class="cd-top text-replace js-cd-top cd-top--is-visible cd-top--fade-out" data-abc="true"></a>
 <section class="section event-bg" id="about">
     <div class="container">
         <div class="row">
-            <div class="col-lg-6 col-md-12 col-sm-12" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
-                <img src="/images/gbf.png" class="rounded img-fluid d-block mx-auto" alt="App">
+            <div class="col-lg-12 col-md-12 col-sm-12" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+                <img src="/images/gbf.png" class="about-logo rounded d-block mx-auto" alt="App" height="30vw">
             </div>
-            <div class="right-text col-lg-6 col-md-12 col-sm-12 mobile-top-fix">
-                <div class="left-heading">
+            <div class="right-text col-lg-12 col-md-12 col-sm-12 mobile-top-fix">
+                <div class="section-heading">
                     <h2>What is Ganesha Business Festival ?</h2>
-                </div>
-                <div class="left-text text-justify">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates error ratione illo voluptatem rerum, eius aperiam ut nihil odio debitis neque delectus hic autem. Rem sit officiis laborum similique vitae!</p>
-                    <a href="#about2" class="main-button">Discover More</a>
+                    <hr>
+                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit odio, veniam minima nam quaerat fugiat blanditiis consequuntur illo corrupti minus porro nobis ipsam, voluptate error sequi repellendus cupiditate ipsa similique. </p>
                 </div>
             </div>
         </div>
@@ -28,69 +27,95 @@
 </section>
 <!-- ***** Features Big Item End ***** -->
 
+<!-- ***** Features Big Item Start ***** -->
+<section class="section bcc-bg" id="bcc">
+    <div class="container">
+        <div class="row d-flex justify-content-between">
+            <div class="col-lg-12">
+                <div class="section-heading">
+                    <h2>Visi</h2>
+                    <hr>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione a facilis eos quia dolore aliquid at nesciunt impedit consequuntur amet totam harum, eius illum pariatur dolorum accusantium! Enim, ex architecto! </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ***** Features Big Item End ***** -->
+
+<!-- ***** Features Big Item Start ***** -->
+<section class="section bcc-bg" id="bcc">
+    <div class="container">
+        <div class="row d-flex justify-content-between">
+            <div class="col-lg-12">
+                <div class="section-heading">
+                    <h2>Misi</h2>
+                    <hr>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione a facilis eos quia dolore aliquid at nesciunt impedit consequuntur amet totam harum, eius illum pariatur dolorum accusantium! Enim, ex architecto! </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ***** Features Big Item End ***** -->
+
+<section class="section bcc-bg" id="bcc">
+    <div class="container">
+        <div class="row d-flex justify-content-between">
+            <div class="col-lg-12">
+                <div class="section-heading">
+                    <h2>Tujuan</h2>
+                    <hr>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione a facilis eos quia dolore aliquid at nesciunt impedit consequuntur amet totam harum, eius illum pariatur dolorum accusantium! Enim, ex architecto! </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 
 <!-- ***** Features Big Item Start ***** -->
 <div id="events">
-    <section class="section bcc-bg" id="about2">
+    <section class="section timeline-bg" id="about2">
         <div class="container">
             <div class="row">
-                <div class="left-text col-lg-5 col-md-12 col-sm-12 mobile-bottom-fix ">
-                    <div class="left-heading">
-                        <h2>Tujuan</h2>
+                <div class="col-lg-12">
+                    <div class="section-heading">
+                        <h2>Value</h2>
+                        <hr>
                     </div>
-                    <p class="text-justify">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae reprehenderit dolorem, iure unde maxime cum nihil optio. Minus molestiae, hic, praesentium et, laudantium distinctio quis facere doloribus sint asperiores eveniet.</p>
-                    <ul>
-                        <li>
-                            <img src="/images/about-icon-01.png" alt="">
-                            <div class="text">
-                                <a href="/event/preevent"> <h6>Value 1</h6> </a>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae reprehenderit dolorem, adipisicing elit.</p>
-                            </div>
-                        </li>
-                        <li>
-                            <img src="/images/about-icon-02.png" alt="">
-                            <div class="text">
-                                <a href="/event/exhibition"> <h6>Value 2</h6> </a>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae reprehenderit dolorem, adipisicing elit.</p>
-                            </div>
-                        </li>
-                        <li>
-                            <img src="/images/about-icon-03.png" alt="">
-                            <div class="text">
-                                <a href="/event/awarding"> <h6>Value 3</h6> </a>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae reprehenderit dolorem, adipisicing elit.</p>
-                            </div>
-                        </li>
-                    </ul>
                 </div>
-                <div class="right-image col-lg-7 col-md-12 col-sm-12 mobile-bottom-fix-big" data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
-                    <img src="/images/right-image.png" class="rounded img-fluid d-block mx-auto" alt="App">
+                <div class="col-lg-4 col-md-12 col-sm-12 mobile-bottom-fix d-flex align-items-stretch" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+                    <div class="card">
+                      <img class="card-img-top" src="/images/box.png" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title text-center">Value 1</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12 mobile-bottom-fix d-flex align-items-stretch" data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
+                    <div class="card">
+                      <img class="card-img-top" src="/images/box.png" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title text-center">Value 2</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12 mobile-bottom-fix d-flex align-items-stretch" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+                    <div class="card">
+                      <img class="card-img-top" src="/images/box.png" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title text-center">value 3</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 </div>
-<!-- ***** Features Big Item End ***** -->
-
-<!-- ***** Features Big Item Start ***** -->
-<section class="section timeline-bg" id="bcc">
-    <div class="container">
-        <div class="row">
-            
-            <div class="col-lg-7 col-md-12 col-sm-12" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
-                <img src="/images/left-image.png" class="rounded img-fluid d-block mx-auto" alt="App">
-            </div>
-            <div class="right-text col-lg-5 col-md-12 col-sm-12 mobile-top-fix">
-                <div class="left-heading">
-                    <h2>Visi dan Misi</h2>
-                </div>
-                <div class="left-text text-justify">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates error ratione illo voluptatem rerum, eius aperiam ut nihil odio debitis neque delectus hic autem. Rem sit officiis laborum similique vitae!</p>
-                    <!-- <a href="#about2" class="main-button">Discover More</a> -->
-                </div>
-            </div>
-    </div>
-</section>
 <!-- ***** Features Big Item End ***** -->
 
 

@@ -1,71 +1,77 @@
 @extends("template.section")
 
+@section('jumbotronImage', '../images/section-bg.png')
+@section('title', 'SHS Competition')
+@section('subtitle', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis molestias deleniti explicabo dicta quod, animi assumenda distinctio aliquid labore mollitia, repellat sint voluptatibus numquam culpa incidunt velit! Optio, quibusdam nisi!')
+
+
 @section('content')
-<!-- ***** Features Big Item Start ***** -->
-<div id="events">
-    <section class="section event-bg" id="about2">
-        <div class="container">
-            <div class="row">
-                <div class="left-text col-lg-5 col-md-12 col-sm-12 mobile-bottom-fix ">
-                    <div class="left-heading">
-                        <h2>Topic</h2>
-                    </div>
-                    <p class="text-justify">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae reprehenderit dolorem, iure unde maxime cum nihil optio. Minus molestiae, hic, praesentium et, laudantium distinctio quis facere doloribus sint asperiores eveniet.</p>
-                    <ul>
-                        <li>
-                            <img src="/images/about-icon-01.png" alt="">
-                            <div class="text">
-                                <a href="/event/preevent"> <h6>Case Collab 1</h6> </a>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae reprehenderit dolorem, adipisicing elit.</p>
-                            </div>
-                        </li>
-                        <li>
-                            <img src="/images/about-icon-02.png" alt="">
-                            <div class="text">
-                                <a href="/event/exhibition"> <h6>Case Collab 2</h6> </a>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae reprehenderit dolorem, adipisicing elit.</p>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-lg-7 col-md-12 col-sm-12 mobile-bottom-fix d-flex align-items-stretch" data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
-                    <div class="card">
-                      <img class="card-img-top" src="/images/slider-icon.png" alt="Card image cap" height=350px>
-                      <div class="card-body">
-                        <h5 class="card-title text-center">SHS Competition</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <div class="text-center">
-                            <a href="#" class="main-button">Register</a>
-                            <a href="#" class="main-button">Guideline</a>
-                        </div>
-                      </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-</div>
-<!-- ***** Features Big Item End ***** -->
+<a href="#timeline" id="toTopBtn" class="cd-top text-replace js-cd-top cd-top--is-visible cd-top--fade-out" data-abc="true"></a>
+
 
 <!-- ***** Timeline Start ***** -->
 <section class="section timeline-bg" id="timeline">
     <div class="container">
+        <div class="col-lg-12">
+            <div class="section-heading">
+                <h2>Topic</h2>
+                <hr>
+                <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad consequatur impedit quia porro vero. Perferendis adipisci, illo dignissimos esse suscipit officia facere nesciunt fugiat, distinctio blanditiis non inventore hic! Nisi! </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-heading">
+                    <h2>Case Collaborator</h2>
+                    <hr>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12 mobile-bottom-fix d-flex align-items-stretch" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+                <div class="card">
+                  <img class="card-img-top" src="/images/box.png" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title text-center">Case 1</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12 mobile-bottom-fix d-flex align-items-stretch" data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
+                <div class="card">
+                  <img class="card-img-top" src="/images/box.png" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title text-center">Case 2</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12 mobile-bottom-fix d-flex align-items-stretch" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+                <div class="card">
+                  <img class="card-img-top" src="/images/box.png" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title text-center">Case 3</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  </div>
+                </div>
+            </div>
+            <div class="col-lg-12 pt-5">
+                <div class="text-center">
+                    <a href="#" class="main-button">Guideline</a>
+                </div>
+            </div>
+        </div>
         <!-- ***** Section Title Start ***** -->
         <div class="row" id="timeline-heading">
             <div class="col-lg-12">
                 <div class="section-heading">
                     <h2>Timeline</h2>
-                </div>
-            </div>
-            <div class="offset-lg-3 col-lg-6">
-                <div class="section-heading">
-                    <p>Vivamus venenatis eu mi ac mattis. Maecenas ut elementum sapien. Nunc euismod risus ac lobortis congue. Sed erat quam.</p>
+                    <hr>
                 </div>
             </div>
         </div>
         <!-- ***** Section Title End ***** -->
 
-        <div class="row">
+        <div class="row pt-5">
             <div class="col-lg-12 col-md-12 col-sm-12 mobile-bottom-fix" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
                 <ul class="timeline timeline-centered">
                     <li class="timeline-item">
@@ -136,11 +142,7 @@
             <div class="col-lg-12">
                 <div class="section-heading">
                     <h2>Frequently Asked Questions</h2>
-                </div>
-            </div>
-            <div class="offset-lg-3 col-lg-6">
-                <div class="section-heading">
-                    <p>Vivamus venenatis eu mi ac mattis. Maecenas ut elementum sapien. Nunc euismod risus ac lobortis congue. Sed erat quam.</p>
+                    <hr>
                 </div>
             </div>
         </div>
@@ -244,6 +246,19 @@
 </section>
 <!-- ***** Frequently Question End ***** -->
 
+<!-- ***** Register Start***** -->
+<section class="section register-bg" id="services">
+        <div class="container" id="sponsor">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="text-center">
+                        <a href="#" class="section-button">Register</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+<!-- ***** Register End ***** -->
 @endsection
 
 @section('script')

@@ -15,11 +15,20 @@
     <link rel="stylesheet" type="text/css" href="/css/font-awesome.css">
     <link rel="stylesheet" type="text/css" href="/css/main.css">
     <link rel="stylesheet" type="text/css" href="/css/owl-carousel.css">
+
+    <style>
+        .section-jumbotron {
+          background-image: url(@yield('jumbotronImage'));
+        }
+    </style>
+          <!-- background-image: linear-gradient(to bottom, rgba(255,255,255,0.7), rgba(0,0,0,1)), url(@yield('jumbotronImage')); -->
+
 </head>
     
 <body>
     
     <!-- ***** Header Area Start ***** -->
+    <!-- kalau mau buat transparant hilangin background-header -->
     <header class="header-area header-sticky background-header">
         <div class="container">
             <div class="row">
@@ -27,7 +36,7 @@
                     <nav class="main-nav navbar">
                         <!-- ***** Logo Start ***** -->
                           <a class="navbar-brand" href="/landing">
-                            <img src="{{ URL::asset('images/logo.png') }}" width="30" height="30" alt="">
+                              <img src="{{ URL::asset('images/gbf.png') }}" width="100px" height="60px" alt="">
                           </a>
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
@@ -51,20 +60,6 @@
                             <li class="scroll-to-section"><a href="#timeline">Timeline</a></li>
                             <li class="scroll-to-section"><a href="#frequently-question">FAQ</a></li>
                             <li class="scroll-to-section"><a href="/about">About</a></li>
-                            
-                            <!--
-                                <li class="scroll-to-section"><a href="#services">Services</a></li>
-                                <li class="submenu">
-                                    <a href="javascript:;">Drop Down</a>
-                                    <ul>
-                                        <li><a href="">About Us</a></li>
-                                        <li><a href="">Features</a></li>
-                                        <li><a href="">FAQ's</a></li>
-                                        <li><a href="">Blog</a></li>
-                                    </ul>
-                                </li>
-                            -->
-
                         </ul>
                         <a class='menu-trigger'>
                             <span>Menu</span>
@@ -76,7 +71,14 @@
         </div>
     </header>
     <!-- ***** Header Area End ***** -->
-
+    <section class="section">
+        <div class="jumbotron section-jumbotron">
+            <div class="container">
+                <h1 class="display-4">@yield('title')</h1>
+                <p class="lead text-center">@yield('subtitle')</p>
+            </div>
+        </div>
+    </section>
     @yield('content')
 
     <!-- ***** Features Small Start ***** -->
@@ -86,11 +88,7 @@
                 <div class="col-lg-12">
                     <div class="section-heading">
                         <h2>Sponsor</h2>
-                    </div>
-                </div>
-                <div class="offset-lg-3 col-lg-6">
-                    <div class="section-heading">
-                        <p>Vivamus venenatis eu mi ac mattis. Maecenas ut elementum sapien. Nunc euismod risus ac lobortis congue. Sed erat quam.</p>
+                        <hr>
                     </div>
                 </div>
             </div>
@@ -133,6 +131,5 @@
     </footer>
 
     @yield('script')
-
   </body>
 </html>
