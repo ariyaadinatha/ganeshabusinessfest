@@ -1,8 +1,10 @@
 @extends("template.section")
 
 @section('jumbotronImage', '../images/section-bg.png')
-@section('title', 'SHS Competition')
-@section('subtitle', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis molestias deleniti explicabo dicta quod, animi assumenda distinctio aliquid labore mollitia, repellat sint voluptatibus numquam culpa incidunt velit! Optio, quibusdam nisi!')
+@section('title', 'Highschool Competition')
+@section('subtitle', '
+A national business competition to challenge high school students to make an innovative business idea related to our theme. Register your team (max 3 persons/team from the same or different institution) and have the chance to win a substantial amount of prize!
+ ')
 
 
 @section('content')
@@ -16,14 +18,14 @@
             <div class="section-heading">
                 <h2>Topic</h2>
                 <hr>
-                <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad consequatur impedit quia porro vero. Perferendis adipisci, illo dignissimos esse suscipit officia facere nesciunt fugiat, distinctio blanditiis non inventore hic! Nisi! </p>
+                <p class="bcc-topic"> "Freedom of Creativity in a Zero Waste Business Movement to Realize Green Business" </p>
             </div>
         </div>
 
         <div class="row">
             <div class="col-lg-12">
                 <div class="section-heading">
-                    <h2>Case Collaborator</h2>
+                    <h2> Incubator </h2>
                     <hr>
                 </div>
             </div>
@@ -74,55 +76,100 @@
         <div class="row pt-5">
             <div class="col-lg-12 col-md-12 col-sm-12 mobile-bottom-fix" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
                 <ul class="timeline timeline-centered">
-                    <li class="timeline-item">
-                        <div class="timeline-info">
-                            <span>March 12, 2016</span>
-                        </div>
+                    <li class="timeline-item period">
+                        <div class="timeline-info"></div>
                         <div class="timeline-marker"></div>
                         <div class="timeline-content">
-                            <h3 class="timeline-title">Event Title</h3>
-                            <p>Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Donec orci lectus, aliquam ut, faucibus non, euismod id, nulla. Donec vitae sapien ut libero venenatis faucibus. ullam dictum felis
-                                eu pede mollis pretium. Pellentesque ut neque.</p>
+                            <h2 class="timeline-title">March 2021</h2>
                         </div>
                     </li>
                     <li class="timeline-item">
                         <div class="timeline-info">
-                            <span>March 23, 2016</span>
+                            <span>March 1-14, 2021</span>
                         </div>
                         <div class="timeline-marker"></div>
                         <div class="timeline-content">
-                            <h3 class="timeline-title">Event Title</h3>
-                            <p>Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Donec orci lectus, aliquam ut, faucibus non, euismod id, nulla. Donec vitae sapien ut libero venenatis faucibus. ullam dictum felis
-                                eu pede mollis pretium. Pellentesque ut neque. </p>
+                            <h5 class="timeline-title">Early Bird Registration</h5>
+                        </div>
+                    </li>
+                    <li class="timeline-item">
+                        <div class="timeline-info">
+                            <span>March 15 - April 3, 2021</span>
+                        </div>
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h5 class="timeline-title">Regular Registration</h5>
+                        </div>
+                    </li>
+                    <li class="timeline-item">
+                        <div class="timeline-info">
+                            <span>March 1 - April 4, 2021</span>
+                        </div>
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h5 class="timeline-title">Proposal Submission</h5>
                         </div>
                     </li>
                     <li class="timeline-item period">
                         <div class="timeline-info"></div>
                         <div class="timeline-marker"></div>
                         <div class="timeline-content">
-                            <h2 class="timeline-title">April 2016</h2>
+                            <h2 class="timeline-title">April 2021</h2>
                         </div>
                     </li>
                     <li class="timeline-item">
                         <div class="timeline-info">
-                            <span>April 02, 2016</span>
+                            <span>April 15, 2021</span>
                         </div>
                         <div class="timeline-marker"></div>
                         <div class="timeline-content">
-                            <h3 class="timeline-title">Event Title</h3>
-                            <p>Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Donec orci lectus, aliquam ut, faucibus non, euismod id, nulla. Donec vitae sapien ut libero venenatis faucibus. ullam dictum felis
-                                eu pede mollis pretium. Pellentesque ut neque. </p>
+                            <h5 class="timeline-title">Top 10 Announcement</h5>
                         </div>
                     </li>
                     <li class="timeline-item">
                         <div class="timeline-info">
-                            <span>April 28, 2016</span>
+                            <span>April 16-22, 2021</span>
                         </div>
                         <div class="timeline-marker"></div>
                         <div class="timeline-content">
-                            <h3 class="timeline-title">Event Title</h3>
-                            <p>Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Donec orci lectus, aliquam ut, faucibus non, euismod id, nulla. Donec vitae sapien ut libero venenatis faucibus. ullam dictum felis
-                                eu pede mollis pretium. Pellentesque ut neque. </p>
+                            <h5 class="timeline-title">Exclusive Mentoring Session </h5>
+                            <h5 class="timeline-title">PPT & Poster Submission </h5>
+                        </div>
+                    </li>
+                    <li class="timeline-item">
+                        <div class="timeline-info">
+                            <span>April 22-24, 2021</span>
+                        </div>
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h5 class="timeline-title">Poster Upload on Instagram</h5>
+                        </div>
+                    </li>
+                    <li class="timeline-item">
+                        <div class="timeline-info">
+                            <span>April 23, 2021</span>
+                        </div>
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h5 class="timeline-title">Technical meeting</h5>
+                        </div>
+                    </li>
+                    <li class="timeline-item">
+                        <div class="timeline-info">
+                            <span>April 24, 2021</span>
+                        </div>
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h5 class="timeline-title">Final Pitching</h5>
+                        </div>
+                    </li>
+                    <li class="timeline-item">
+                        <div class="timeline-info">
+                            <span>April 25, 2021</span>
+                        </div>
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h5 class="timeline-title">Awarding Day</h5>
                         </div>
                     </li>
                 </ul>

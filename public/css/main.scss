@@ -93,7 +93,7 @@ body {
     outline: 0;
     font-weight: 400;
     background-color: #f4f4f4;
-    font-size: 16px;
+    font-size: 18px;
     -ms-text-size-adjust: 100%;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -540,7 +540,7 @@ hgroup {
 }
 
 a.main-button-slider {
-    font-size: 13px;
+    font-size: 15px;
     border-radius: 20px;
     padding: 12px 20px;
     background-color: theme(sub);
@@ -556,9 +556,10 @@ a.main-button-slider {
     }
 }
 a.main-button {
-    font-size: 20px;
+    font-size: 22px;
     border-radius: 20px;
-    padding: 25px 35px;
+    padding: 25px 15px;
+    margin: 10px;
     background-color: theme(sub);
     text-transform: uppercase;
     color: #fff;
@@ -575,9 +576,9 @@ button.main-button {
     outline: none;
     border: none;
     cursor: pointer;
-    font-size: 13px;
+    font-size: 15px;
     border-radius: 30px;
-    padding: 12px 20px;
+    padding: 10px 15px;
     background-color: theme(sub);
     text-transform: uppercase;
     color: #fff;
@@ -618,7 +619,7 @@ a.section-button {
         margin-bottom: 20px;
     }
     p {
-        font-size: 17px;
+        font-size: 23px;
         color: #615a55;
         text-align: center;
     }
@@ -635,10 +636,13 @@ a.section-button {
     background-color: rgba(255, 255, 255, 0.05);
     display: flex;
     align-items: center;
-    height: 25vw;
+    height: 70vh;
     text-align: center;
     margin-bottom: 0px;
     padding-bottom: 0px;
+    h1 {
+        margin-top: 20px;
+    }
 }
 
 .background-header {
@@ -677,6 +681,7 @@ a.section-button {
             }
         }
         .menu-trigger {
+            background-color: #727272;
             span {
                 background-color: #1e1e1e;
                 &:before {
@@ -1044,7 +1049,7 @@ a.section-button {
         }
     }
     h5 {
-        font-size: 26px;
+        font-size: 28px;
         font-weight: 700;
         color: #1e1e1e;
         line-height: 40px;
@@ -1064,7 +1069,7 @@ a.section-button {
         align-self: center;
     }
     h5 {
-        font-size: 26px;
+        font-size: 28px;
         font-weight: 700;
         color: #1e1e1e;
         line-height: 40px;
@@ -1099,7 +1104,7 @@ a.section-button {
 }
 
 #bcc {
-    padding: 80px 0px;
+    padding: 120px 0px;
     .right-text {
         align-self: center;
         p {
@@ -1113,6 +1118,9 @@ a.section-button {
         line-height: 40px;
         margin-bottom: 25px;
         letter-spacing: 0.5px;
+        white-space: nowrap;
+        display: flex;
+        justify-content: center;
         &:hover {
             a {
                 font-size: 30px;
@@ -1121,7 +1129,7 @@ a.section-button {
     }
     p {
         margin-bottom: 30px;
-        font-size: 16px;
+        font-size: 20px;
         line-height: 30px;
         letter-spacing: 0.5px;
     }
@@ -1129,6 +1137,14 @@ a.section-button {
     .card {
         margin: 20px 0px;
     }
+}
+
+.bcc-topic {
+    .section-heading p {
+        font-size: 23px;
+    }
+    font-weight: bold;
+    color: theme(main);
 }
 
 #events {
@@ -1139,6 +1155,16 @@ a.section-button {
             }
         }
     }
+
+    .card {
+        margin: 20px;
+    }
+}
+
+#event2,
+#event3,
+#event4 {
+    display: none;
 }
 
 #services {
@@ -1281,6 +1307,21 @@ a.section-button {
         }
     }
 }
+
+.carousel-caption {
+    font-family: typograph(subtitle-main), sans-serif;
+    color: white;
+    font-size: 70px;
+    top: 30%;
+}
+
+.carousel-main {
+    background: linear-gradient(to right, theme(sub), theme(tri), theme(main));
+    font-weight: bold;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 #frequently-question {
     padding: 120px 0px;
     .section-heading {
@@ -1293,7 +1334,7 @@ a.section-button {
     margin: 20px;
     border: double 4px transparent;
     border-radius: 40px;
-    background-color: #023461;
+    background-color: theme(main);
     /*background-image: linear-gradient(
             to right,
             theme(tri),
@@ -1308,7 +1349,9 @@ a.section-button {
     color: white;
     margin: 20px;
     padding: 20px;
-    font-size: 20px;
+    span {
+        font-size: 24px;
+    }
     cursor: pointer;
     transition: color 200ms ease-in-out;
     .icon {
@@ -1332,8 +1375,19 @@ a.section-button {
     }
     p {
         color: white;
+        font-size: 19px;
         padding: 10px;
     }
+}
+
+.carousel-inner {
+    height: auto;
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 100%;
+    margin: auto;
+    min-height: initial;
 }
 
 .event-bg {
@@ -1343,6 +1397,44 @@ a.section-button {
         theme(sub) 0%,
         #eaf0f2 55%
     );
+}
+
+.event-select {
+    button {
+        margin: 10px;
+    }
+}
+
+.event-desc {
+    padding-left: 18%;
+    padding-right: 18%;
+    text-align: justify;
+}
+
+.btn-outline-event {
+    color: theme(main);
+    background-color: theme(sub);
+    border-color: white;
+    border-radius: 25px;
+    border: 2px solid theme(main);
+}
+
+.btn-outline-carousel {
+    color: theme(main);
+    background-color: theme(sub);
+    border-color: white;
+    border-radius: 25px;
+    border: 2px solid white;
+    padding: 15px;
+    &:hover {
+        color: theme(sub);
+        background-color: theme(main);
+    }
+}
+
+#button1 {
+    color: theme(sub);
+    background-color: theme(main);
 }
 
 .bcc-bg {
@@ -1585,6 +1677,14 @@ a.section-button {
     }
 }
 
+.bcc-img {
+    height: 300px;
+}
+
+.bcc-button {
+    padding: 10px;
+}
+
 #myBtn {
     display: none;
     position: fixed;
@@ -1688,6 +1788,59 @@ a.section-button {
     .contact-form {
         padding: 60px;
         margin-top: -7px;
+    }
+
+    .display-1 {
+        font-size: 40px;
+    }
+
+    .display-4 {
+        font-size: 30px;
+    }
+
+    .lead {
+        font-size: 15px;
+    }
+
+    #bcc h5 {
+        font-size: 20px;
+    }
+    #bcc p {
+        font-size: 16px;
+    }
+    .accordion-head span,
+    .accordion-body p {
+        font-size: 15px;
+    }
+    body {
+        font-size: 15px;
+    }
+
+    a.section-button {
+        font-size: 25px;
+        border-radius: 70px;
+        padding: 40px 60px;
+    }
+
+    .btn-outline-event {
+        font-size: 8px;
+        border-color: white;
+        border-radius: 20px;
+        border: 2px solid theme(main);
+    }
+
+    .section-heading h2 {
+        font-size: 35px;
+    }
+
+    .section-heading p {
+        font-size: 20px;
+    }
+
+    .footer-logo {
+        padding-top: 5px;
+        width: 250px;
+        height: auto;
     }
 }
 @media screen and (max-width: 920px) {

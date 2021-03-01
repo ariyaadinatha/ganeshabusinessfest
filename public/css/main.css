@@ -89,6 +89,10 @@ footer
   margin-bottom: 80px;
 }
 
+.timeline-item h5 {
+  font-size: 25px;
+}
+
 /*----- TIMELINE ITEM -----*/
 .timeline-item {
   padding-left: 40px;
@@ -101,8 +105,8 @@ footer
 
 /*----- TIMELINE INFO -----*/
 .timeline-info {
-  font-size: 12px;
-  font-weight: 700;
+  font-size: 25px;
+  font-weight: 600;
   letter-spacing: 3px;
   margin: 0 0 0.5em 0;
   text-transform: uppercase;
@@ -316,6 +320,16 @@ footer
   background: #ead4a0;
 }
 
+@media (max-width: 765px) {
+  .timeline-info {
+    font-size: 15px;
+  }
+  .timeline-item h5,
+  h3 {
+    font-size: 15px;
+  }
+}
+
 html {
   margin: 0;
   padding: 0;
@@ -339,7 +353,7 @@ body {
   outline: 0;
   font-weight: 400;
   background-color: #f4f4f4;
-  font-size: 16px;
+  font-size: 18px;
   -ms-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -849,7 +863,7 @@ hgroup {
 }
 
 a.main-button-slider {
-  font-size: 13px;
+  font-size: 15px;
   border-radius: 20px;
   padding: 12px 20px;
   background-color: #ead4a0;
@@ -865,9 +879,10 @@ a.main-button-slider:hover {
 }
 
 a.main-button {
-  font-size: 20px;
+  font-size: 22px;
   border-radius: 20px;
-  padding: 25px 35px;
+  padding: 25px 15px;
+  margin: 10px;
   background-color: #ead4a0;
   text-transform: uppercase;
   color: #fff;
@@ -884,9 +899,9 @@ button.main-button {
   outline: none;
   border: none;
   cursor: pointer;
-  font-size: 13px;
+  font-size: 15px;
   border-radius: 30px;
-  padding: 12px 20px;
+  padding: 10px 15px;
   background-color: #ead4a0;
   text-transform: uppercase;
   color: #fff;
@@ -926,7 +941,7 @@ a.section-button:hover {
 }
 
 .section-heading p {
-  font-size: 17px;
+  font-size: 23px;
   color: #615a55;
   text-align: center;
 }
@@ -947,10 +962,14 @@ a.section-button:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 25vw;
+  height: 70vh;
   text-align: center;
   margin-bottom: 0px;
   padding-bottom: 0px;
+}
+
+.section-jumbotron h1 {
+  margin-top: 20px;
 }
 
 .background-header {
@@ -978,6 +997,10 @@ a.section-button:hover {
 
 .background-header .main-nav .nav > li > ul > li:hover > a {
   color: #ead4a0 !important;
+}
+
+.background-header .main-nav .menu-trigger {
+  background-color: #727272;
 }
 
 .background-header .main-nav .menu-trigger span {
@@ -1341,7 +1364,7 @@ a.section-button:hover {
 }
 
 #about h5 {
-  font-size: 26px;
+  font-size: 28px;
   font-weight: 700;
   color: #1e1e1e;
   line-height: 40px;
@@ -1367,7 +1390,7 @@ a.section-button:hover {
 }
 
 #about2 h5 {
-  font-size: 26px;
+  font-size: 28px;
   font-weight: 700;
   color: #1e1e1e;
   line-height: 40px;
@@ -1401,7 +1424,7 @@ a.section-button:hover {
 }
 
 #bcc {
-  padding: 80px 0px;
+  padding: 120px 0px;
 }
 
 #bcc .right-text {
@@ -1421,6 +1444,13 @@ a.section-button:hover {
   line-height: 40px;
   margin-bottom: 25px;
   letter-spacing: 0.5px;
+  white-space: nowrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 #bcc h5:hover a {
@@ -1429,7 +1459,7 @@ a.section-button:hover {
 
 #bcc p {
   margin-bottom: 30px;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 30px;
   letter-spacing: 0.5px;
 }
@@ -1438,8 +1468,27 @@ a.section-button:hover {
   margin: 20px 0px;
 }
 
+.bcc-topic {
+  font-weight: bold;
+  color: #171a47;
+}
+
+.bcc-topic .section-heading p {
+  font-size: 23px;
+}
+
 #events h5:hover a {
   font-size: 30px;
+}
+
+#events .card {
+  margin: 20px;
+}
+
+#event2,
+#event3,
+#event4 {
+  display: none;
 }
 
 #services {
@@ -1583,6 +1632,21 @@ a.section-button:hover {
   position: absolute;
 }
 
+.carousel-caption {
+  font-family: "Cabin", sans-serif;
+  color: white;
+  font-size: 70px;
+  top: 30%;
+}
+
+.carousel-main {
+  background: -webkit-gradient(linear, left top, right top, from(#ead4a0), color-stop(#d3e6ec), to(#171a47));
+  background: linear-gradient(to right, #ead4a0, #d3e6ec, #171a47);
+  font-weight: bold;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 #frequently-question {
   padding: 120px 0px;
 }
@@ -1595,7 +1659,7 @@ a.section-button:hover {
   margin: 20px;
   border: double 4px transparent;
   border-radius: 40px;
-  background-color: #023461;
+  background-color: #171a47;
   /*background-image: linear-gradient(
             to right,
             theme(tri),
@@ -1611,10 +1675,13 @@ a.section-button:hover {
   color: white;
   margin: 20px;
   padding: 20px;
-  font-size: 20px;
   cursor: pointer;
   -webkit-transition: color 200ms ease-in-out;
   transition: color 200ms ease-in-out;
+}
+
+.accordion-head span {
+  font-size: 24px;
 }
 
 .accordion-head .icon {
@@ -1645,12 +1712,61 @@ a.section-button:hover {
 
 .accordion-body p {
   color: white;
+  font-size: 19px;
   padding: 10px;
+}
+
+.carousel-inner {
+  height: auto;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  width: 100%;
+  margin: auto;
+  min-height: initial;
 }
 
 .event-bg {
   border-bottom: #ffffff;
   background-image: radial-gradient(#171a47 0%, #ead4a0 0%, #eaf0f2 55%);
+}
+
+.event-select button {
+  margin: 10px;
+}
+
+.event-desc {
+  padding-left: 18%;
+  padding-right: 18%;
+  text-align: justify;
+}
+
+.btn-outline-event {
+  color: #171a47;
+  background-color: #ead4a0;
+  border-color: white;
+  border-radius: 25px;
+  border: 2px solid #171a47;
+}
+
+.btn-outline-carousel {
+  color: #171a47;
+  background-color: #ead4a0;
+  border-color: white;
+  border-radius: 25px;
+  border: 2px solid white;
+  padding: 15px;
+}
+
+.btn-outline-carousel:hover {
+  color: #ead4a0;
+  background-color: #171a47;
+}
+
+#button1 {
+  color: #ead4a0;
+  background-color: #171a47;
 }
 
 .bcc-bg {
@@ -1860,6 +1976,14 @@ a.section-button:hover {
   }
 }
 
+.bcc-img {
+  height: 300px;
+}
+
+.bcc-button {
+  padding: 10px;
+}
+
 #myBtn {
   display: none;
   position: fixed;
@@ -1956,6 +2080,50 @@ a.section-button:hover {
   .contact-form {
     padding: 60px;
     margin-top: -7px;
+  }
+  .display-1 {
+    font-size: 40px;
+  }
+  .display-4 {
+    font-size: 30px;
+  }
+  .lead {
+    font-size: 15px;
+  }
+  #bcc h5 {
+    font-size: 20px;
+  }
+  #bcc p {
+    font-size: 16px;
+  }
+  .accordion-head span,
+  .accordion-body p {
+    font-size: 15px;
+  }
+  body {
+    font-size: 15px;
+  }
+  a.section-button {
+    font-size: 25px;
+    border-radius: 70px;
+    padding: 40px 60px;
+  }
+  .btn-outline-event {
+    font-size: 8px;
+    border-color: white;
+    border-radius: 20px;
+    border: 2px solid #171a47;
+  }
+  .section-heading h2 {
+    font-size: 35px;
+  }
+  .section-heading p {
+    font-size: 20px;
+  }
+  .footer-logo {
+    padding-top: 5px;
+    width: 250px;
+    height: auto;
   }
 }
 

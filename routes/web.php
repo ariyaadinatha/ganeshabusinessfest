@@ -29,6 +29,7 @@ Route::get('/event/preevent', 'PageRequestController@viewPreevent');
 // BCC
 Route::get('/bcc/shs', 'PageRequestController@viewShs');
 Route::get('/bcc/undergraduate', 'PageRequestController@viewUndergraduate');
+Route::get('/bcc/bootcamp', 'PageRequestController@viewBootcamp');
 
 Auth::routes();
 

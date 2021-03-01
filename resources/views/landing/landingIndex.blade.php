@@ -1,46 +1,37 @@
 @extends("template.main")
 
 @section('content')
-
 <!-- ***** Welcome Area Start ***** -->
 <section class="section">
-
-
-    <!-- ***** Header Text Start ***** -->
-    <!--
-    <div class="header-text">
-        <div class="container">
-            <div class="row">
-                <div class="left-text col-lg-6 col-md-6 col-sm-12 col-xs-12" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
-                    <h1>Lorem Ipsum dolor <strong>sit Amet</strong></h1>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat nam, officia esse, repellat voluptate quos fugiat distinctio, veniam molestias consequatur eius optio dignissimos necessitatibus veritatis officiis itaque repudiandae aspernatur alias. </p>
-                    <a href="#about" class="main-button-slider">Find Out More</a>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
-                    <img src="/images/slider-icon.png" class="rounded img-fluid d-block mx-auto" alt="First Vector Graphic">
-                </div>
-            </div>
-        </div>
-    </div>
-    -->
-    <!-- ***** Header Text End ***** -->
 
     <!-- ***** Carousel Start ***** -->
     <div id="carouselExampleIndicators" class="carousel slide header-text" data-ride="carousel">
         <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="0"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1" class="active"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
         </ol>
         <div class="carousel-inner">
-          <div class="carousel-item active">
+          <div class="carousel-item" id="carousel-item1">
             <img class="d-block vh-100 vw-100" src="/images/carousel1.jpg" alt="First slide">
+            <div class="carousel-caption d-md-block">
+              <h2 class="display-1">What is GBF?</h2>
+              <a href="/about"><button type="button" class="btn btn-outline-carousel btn-lg"> Learn More </button> </a>
+            </div>
           </div>
-          <div class="carousel-item">
-            <img class="d-block vh-100 vw-100" src="/images/carousel2.jpg" alt="Second slide">
+          <div class="carousel-item active" id="carousel-item2">
+            <img class="d-block vh-100 vw-100 layer-carousel" src="/images/carousel2.jpg" alt="Second slide">
+            <div class="carousel-caption d-md-block">
+              <h2 class="display-1">The First-Ever <br> <span class="carousel-main"> Ganesha Business Festival </span> </h2>
+              <p>...</p>
+            </div>
           </div>
-          <div class="carousel-item">
-            <img class="d-block vh-100 vw-100" src="/images/carousel3.jpg" alt="Third slide">
+          <div class="carousel-item" id="carousel-item3">
+            <img class="d-block vh-100 vw-100 layer-carousel" src="/images/carousel3.jpg" alt="Third slide">
+            <div class="carousel-caption d-md-block">
+              <h2 class="display-4">Check Out This Article!</h2>
+              <p>...</p>
+            </div>
           </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" onclick="$('#carouselExampleIndicators').carousel('prev')" data-slide="prev">
@@ -52,9 +43,6 @@
           <span class="sr-only">Next</span>
         </a>
     </div>
-
-
-
     <!-- ***** Carousel End ***** -->
 
 </section>
@@ -78,16 +66,17 @@
                       <img class="card-img-top" src="/images/mun.png" alt="Card image cap">
                       <div class="card-body">
                         <h5 class="card-title text-center"> <a href="/event/preevent">Pre-Event </a></h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="card-text text-center">Chain of interactive events acting as a build-up to the main event.</p>
                       </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-12 col-sm-12 mobile-bottom-fix d-flex align-items-stretch" data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
+                <div class="col-lg-4 col-md-12 col-sm-12 mobile-bottom-fix d-flex align-items-stretch" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
                     <div class="card">
                       <img class="card-img-top" src="/images/mun.png" alt="Card image cap">
                       <div class="card-body">
                         <h5 class="card-title text-center"> <a href="/event/exhibition">Exhibition </a></h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="card-text text-center">Showcase business ideas and developed businesses
+                            from students and alumni from SBM.</p>
                       </div>
                     </div>
                 </div>
@@ -96,11 +85,11 @@
                       <img class="card-img-top" src="/images/mun.png" alt="Card image cap">
                       <div class="card-body">
                         <h5 class="card-title text-center"> <a href="/event/awarding">Awarding </a></h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="card-text text-center"> Aimed to express the greatest gratitude to the winners and create a
+                            night of significance and rewards for all viewers.</p>
                       </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
@@ -114,33 +103,51 @@
             
             <div class="col-lg-12">
                 <div class="section-heading">
-                    <h2>Business Case Competition!</h2>
+                    <h2>Business Case Competition</h2>
                     <hr>
                 </div>
             </div>
 
-            <div class="col-lg-6 col-md-12 col-sm-12 mobile-bottom-fix d-flex align-items-stretch" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+            <div class="col-lg-4 col-md-12 col-sm-12 mobile-bottom-fix d-flex align-items-stretch" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
                 <div class="card">
-                  <img class="card-img-top" src="/images/slider-icon.png" alt="Card image cap" height=500px>
+                  <img class="card-img-top bcc-img" src="/images/slider-icon.png" alt="Card image cap" >
                   <div class="card-body">
-                    <h5 class="card-title text-center"><a href="/bcc/shs"> SHS Competition </a></h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <div class="text-center">
-                        <a href="#" class="main-button">Register</a>
-                        <a href="#" class="main-button">Guideline</a>
+                    <h5 class="card-title text-center"><a href="/bcc/shs"> Highschool Competition </a></h5>
+                    <p class="card-text"> Business competition to challenge high school students, have the chance to win a substantial amount of prize!</p>
+                    <div class="d-flex flex-row text-center">
+                        <a href="#" class="main-button "> <b> Register </b> </a>
+                        <a href="#" class="main-button "> <b> Guideline </b> </a>
                     </div>
                   </div>
                 </div>
             </div>
-            <div class="col-lg-6 col-md-12 col-sm-12 mobile-bottom-fix d-flex align-items-stretch" data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
+            <div class="col-lg-4 col-md-12 col-sm-12 mobile-bottom-fix d-flex align-items-stretch" data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
                 <div class="card">
-                  <img class="card-img-top" src="/images/right-image.png" alt="Card image cap" height=500px>
+                  <img class="card-img-top bcc-img" src="/images/right-image.png" alt="Card image cap" >
                   <div class="card-body">
                     <h5 class="card-title text-center"><a href="/bcc/undergraduate">Undergrad Student Competition</a></h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <div class=text-center>
-                        <a href="#" class="main-button">Register</a>
-                        <a href="#" class="main-button">Guideline</a>
+                    <p class="card-text">Business competition to challenge undergraduate students, have the chance to win a substantial amount of prize!</p>
+                    <div class="d-flex flex-row text-center">
+                        <a href="#" class="main-button "> <b> Register </b> </a>
+                        <a href="#" class="main-button "> <b> Guideline </b> </a>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12 mobile-bottom-fix d-flex align-items-stretch" data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
+                <div class="card">
+                  <img class="card-img-top bcc-img" src="/images/left-image.png" alt="Card image cap" >
+                  <div class="card-body">
+                    <h5 class="card-title text-center"><a href="/bcc/bootcamp">Bootcamp</a></h5>
+                    <p class="card-text text-center">
+                    <br>
+                        Coming Soon ! 
+                    <br>
+                    <br>
+                    </p>
+                    <div class="d-flex flex-row text-center">
+                        <a href="#" class="main-button "> <b> Closed </b> </a>
+                        <a href="#" class="main-button "> <b> Guideline </b> </a>
                     </div>
                   </div>
                 </div>
@@ -166,55 +173,97 @@
         <div class="row pt-5">
             <div class="col-lg-12 col-md-12 col-sm-12 mobile-bottom-fix" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
                 <ul class="timeline timeline-centered">
-                    <li class="timeline-item">
-                        <div class="timeline-info">
-                            <span>March 12, 2016</span>
-                        </div>
+                <li class="timeline-item period">
+                        <div class="timeline-info"></div>
                         <div class="timeline-marker"></div>
                         <div class="timeline-content">
-                            <h3 class="timeline-title">Event Title</h3>
-                            <p>Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Donec orci lectus, aliquam ut, faucibus non, euismod id, nulla. Donec vitae sapien ut libero venenatis faucibus. ullam dictum felis
-                                eu pede mollis pretium. Pellentesque ut neque.</p>
+                            <h2 class="timeline-title">Febuary 2021</h2>
                         </div>
                     </li>
                     <li class="timeline-item">
                         <div class="timeline-info">
-                            <span>March 23, 2016</span>
+                            <span>Febuary 15 - 11 April, 2021</span>
                         </div>
                         <div class="timeline-marker"></div>
                         <div class="timeline-content">
-                            <h3 class="timeline-title">Event Title</h3>
-                            <p>Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Donec orci lectus, aliquam ut, faucibus non, euismod id, nulla. Donec vitae sapien ut libero venenatis faucibus. ullam dictum felis
-                                eu pede mollis pretium. Pellentesque ut neque. </p>
+                            <h5 class="timeline-title">Highschool Competition (Business Plan) <br> & <br> Undergraduate (Business Case)</h5>
                         </div>
                     </li>
                     <li class="timeline-item period">
                         <div class="timeline-info"></div>
                         <div class="timeline-marker"></div>
                         <div class="timeline-content">
-                            <h2 class="timeline-title">April 2016</h2>
+                            <h2 class="timeline-title">March 2021</h2>
                         </div>
                     </li>
                     <li class="timeline-item">
                         <div class="timeline-info">
-                            <span>April 02, 2016</span>
+                            <span>March 20, 2021</span>
                         </div>
                         <div class="timeline-marker"></div>
                         <div class="timeline-content">
-                            <h3 class="timeline-title">Event Title</h3>
-                            <p>Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Donec orci lectus, aliquam ut, faucibus non, euismod id, nulla. Donec vitae sapien ut libero venenatis faucibus. ullam dictum felis
-                                eu pede mollis pretium. Pellentesque ut neque. </p>
+                            <h5 class="timeline-title">Pre-Event 1 (Live Instagram)</h5>
                         </div>
                     </li>
                     <li class="timeline-item">
                         <div class="timeline-info">
-                            <span>April 28, 2016</span>
+                            <span>March 23, 2021</span>
                         </div>
                         <div class="timeline-marker"></div>
                         <div class="timeline-content">
-                            <h3 class="timeline-title">Event Title</h3>
-                            <p>Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Donec orci lectus, aliquam ut, faucibus non, euismod id, nulla. Donec vitae sapien ut libero venenatis faucibus. ullam dictum felis
-                                eu pede mollis pretium. Pellentesque ut neque. </p>
+                            <h5 class="timeline-title">Pre-Event 2 (Live Instagram)</h5>
+                        </div>
+                    </li>
+                    <li class="timeline-item">
+                        <div class="timeline-info">
+                            <span>March 27, 2021</span>
+                        </div>
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h5 class="timeline-title">Pre-Event 3 (Webinar)</h5>
+                        </div>
+                    </li>
+                    <li class="timeline-item">
+                        <div class="timeline-info">
+                            <span>March 28, 2021</span>
+                        </div>
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h5 class="timeline-title">Pre-Event 4 (Workshop)</h5>
+                        </div>
+                    </li>
+                    <li class="timeline-item period">
+                        <div class="timeline-info"></div>
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h2 class="timeline-title">April 2021</h2>
+                        </div>
+                    </li>
+                    <li class="timeline-item">
+                        <div class="timeline-info">
+                            <span>April 10, 2021</span>
+                        </div>
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h5 class="timeline-title">Exhibition Day 1</h5>
+                        </div>
+                    </li>
+                    <li class="timeline-item">
+                        <div class="timeline-info">
+                            <span>April 11, 2021</span>
+                        </div>
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h5 class="timeline-title">Exhibition Day 2</h5>
+                        </div>
+                    </li>
+                    <li class="timeline-item">
+                        <div class="timeline-info">
+                            <span>April 11, 2021</span>
+                        </div>
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h5 class="timeline-title">Awarding Night</h5>
                         </div>
                     </li>
                 </ul>
@@ -245,89 +294,68 @@
                 <div class="accordions is-first-expanded">
                     <article class="accordion">
                         <div class="accordion-head">
-                            <span>First Common Question</span>
+                            <span>Was there a Ganesha Business Festival last year too?</span>
                             <span class="icon">
                                 <i class="icon fa fa-chevron-down"></i>
                             </span>
                         </div>
                         <div class="accordion-body">
                             <div class="content">
-                                <p>Duis vulputate porttitor urna sit amet pretium. Phasellus sed pulvinar eros, condimentum consequat ex. Suspendisse potenti.
-                                <br><br>
-                                Pellentesque maximus lorem sed elit imperdiet mattis. Duis posuere mauris ut eros rutrum sodales. Aliquam erat volutpat.</p>
+                                <p>This is the first GBF to ever be held.</p>
                             </div>
                         </div>
                     </article>
                     <article class="accordion">
                         <div class="accordion-head">
-                            <span>Second Question Answer</span>
+                            <span>What are Ganesha Business Festival’s circumstances?</span>
                             <span class="icon">
                                 <i class="icon fa fa-chevron-down"></i>
                             </span>
                         </div>
                         <div class="accordion-body">
                             <div class="content">
-                                <p>Sed odio elit, cursus sed consequat at, rutrum eget augue. Cras ac eros iaculis, tempor quam sit amet, scelerisque mi. Quisque eu risus eget nunc porttitor vestibulum at a ante.
-                                <br><br>
-                                Praesent ut placerat turpis, vel pellentesque dolor. Sed rutrum eleifend tortor, eu luctus orci sagittis in. In blandit fringilla mollis.</p>
+                                <p>Ganesha Business Festival consists of Pre-Event, Exhibition, and Awarding Night.</p>
                             </div>
                         </div>
                     </article>
                     <article class="accordion">
                         <div class="accordion-head">
-                            <span>Third Answer for you</span>
+                            <span>Who can participate in the competition?</span>
                             <span class="icon">
                                 <i class="icon fa fa-chevron-down"></i>
                             </span>
                         </div>
                         <div class="accordion-body">
                             <div class="content">
-                                <p>Proin feugiat ante ut vulputate rutrum. Nam quis erat turpis. Nullam maximus pharetra lorem, eu condimentum est iaculis ut. Pellentesque mattis ultrices dignissim. 
-                                <br><br>
-                                Etiam et enim finibus, feugiat massa efficitur, finibus sapien. Sed cursus lacus quis arcu scelerisque, eget ornare risus maximus. Aenean non lectus id odio rhoncus pharetra.</p>
+                                <p>For those of you who are a high school student, you can participate in the Business Plan competition, 
+                                and for those of you who are an undergraduate student, you can participate in the Business Case competition.</p>
                             </div>
                         </div>
                     </article>
                     <article class="accordion">
                         <div class="accordion-head">
-                            <span>Fourth Question Asked</span>
+                            <span>When will Ganesha Business Festival 2021 be held?</span>
                             <span class="icon">
                                 <i class="icon fa fa-chevron-down"></i>
                             </span>
                         </div>
                         <div class="accordion-body">
                             <div class="content">
-                                <p>Phasellus eu purus ornare, eleifend orci nec, egestas nulla. Sed sed aliquet sapien. Proin placerat, ipsum eu posuere blandit, tellus quam consectetur nisi, id sollicitudin diam ex at nisi.
-                                <br><br>
-                                Aenean fermentum eget turpis egestas semper. Sed finibus mollis venenatis. Praesent at sem in massa iaculis pharetra.</p>
+                                <p>Ganesha Business Festival 2021 will be held from March to April 2021.</p>
                             </div>
                         </div>
                     </article>
                     <article class="accordion">
                         <div class="accordion-head">
-                            <span>Fifth Ever Question</span>
+                            <span>How much does Ganesha Business Festival cost?</span>
                             <span class="icon">
                                 <i class="icon fa fa-chevron-down"></i>
                             </span>
                         </div>
                         <div class="accordion-body">
                             <div class="content">
-                                <p>Quisque aliquet ipsum ut magna rhoncus, euismod lacinia elit rhoncus. Sed sapien elit, mollis ut ultricies quis, fermentum nec ante.
-                                <br><br>
-                                Sed nec ex nec tortor fermentum sollicitudin id ut ligula. Ut sagittis rutrum lectus, non sagittis ante euismod eu. </p>
-                            </div>
-                        </div>
-                    </article>
-                    <article class="accordion">
-                        <div class="accordion-head">
-                            <span>Sixth Sense Question</span>
-                            <span class="icon">
-                                <i class="icon fa fa-chevron-down"></i>
-                            </span>
-                        </div>
-                        <div class="accordion-body">
-                            <div class="content">
-                                <p>Suspendisse potenti. Ut dapibus leo ut massa vulputate semper. Pellentesque maximus lorem sed elit imperdiet mattis. Duis posuere mauris ut eros rutrum sodales. Aliquam erat volutpat.</p>
+                                <p>For the Pre-Event’s series, Instagram live will be free. However, the webinars are charged at a very reasonable price. 
+                                The exhibition is free to visit, but the Awarding Night is charged as we are going to bring famous and happening artists to the stage, stay tuned!</p>
                             </div>
                         </div>
                     </article>

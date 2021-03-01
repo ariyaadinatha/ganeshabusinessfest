@@ -2,68 +2,27 @@
 
 @section('jumbotronImage', '../images/section-bg.png')
 @section('title', 'Awarding')
-@section('subtitle', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis molestias deleniti explicabo dicta quod, animi assumenda distinctio aliquid labore mollitia, repellat sint voluptatibus numquam culpa incidunt velit! Optio, quibusdam nisi!')
+@section('subtitle', '
+Awarding Night is the highlight of the Ganesha Business Festival 2021 that will present meanings and memories for the audience. 
+Not just a moment of appreciation for the winners of GBF 2021, this event can be enjoyed by all audiences, 
+inside and outside SBM ITB because it will be filled with various attractive, interactive, and communicative programs, 
+such as several special performances and various challenges for the audience with attractive prizes. Through this event, 
+GBF 2021 not only wanted to convey the highest appreciation for the winners but also to create a night of value and benefits to all audiences.
+')
 
 @section('content')
 
 
 <a href="#bcc" id="toTopBtn" class="cd-top text-replace js-cd-top cd-top--is-visible cd-top--fade-out" data-abc="true"></a>
 
-<!-- ***** Features Big Item Start ***** -->
-<section class="section bcc-bg" id="bcc">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="section-heading">
-                    <h2>Performer</h2>
-                    <hr>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-12 col-sm-12 mobile-bottom-fix d-flex align-items-stretch" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
-                <div class="card">
-                  <img class="card-img-top" src="/images/box2.png" alt="Card image cap">
-                  <div class="card-body">
-                    <h5 class="card-title text-center">Performer 1</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                  </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-12 col-sm-12 mobile-bottom-fix d-flex align-items-stretch" data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
-                <div class="card">
-                  <img class="card-img-top" src="/images/event/speaker/nako.png" alt="Card image cap">
-                  <div class="card-body">
-                    <h5 class="card-title text-center">Yabuki Nako</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                  </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-12 col-sm-12 mobile-bottom-fix d-flex align-items-stretch" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
-                <div class="card">
-                  <img class="card-img-top" src="/images/box2.png" alt="Card image cap">
-                  <div class="card-body">
-                    <h5 class="card-title text-center">Performer 2</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                  </div>
-                </div>
-            </div>
-    </div>
-</section>
-<!-- ***** Features Big Item End ***** -->
-
-
-
-
-
-
-
 <!-- ***** Timeline Start ***** -->
-<section class="section timeline-bg" id="timeline">
+<section class="section bcc-bg" id="timeline">
     <div class="container">
         <!-- ***** Section Title Start ***** -->
         <div class="row" id="timeline-heading">
             <div class="col-lg-12">
                 <div class="section-heading">
-                    <h2>Timeline</h2>
+                    <h2>Schedule</h2>
                     <hr>
                 </div>
             </div>
@@ -73,55 +32,24 @@
         <div class="row pt-5">
             <div class="col-lg-12 col-md-12 col-sm-12 mobile-bottom-fix" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
                 <ul class="timeline timeline-centered">
-                    <li class="timeline-item">
-                        <div class="timeline-info">
-                            <span>March 12, 2016</span>
-                        </div>
-                        <div class="timeline-marker"></div>
-                        <div class="timeline-content">
-                            <h3 class="timeline-title">Event Title</h3>
-                            <p>Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Donec orci lectus, aliquam ut, faucibus non, euismod id, nulla. Donec vitae sapien ut libero venenatis faucibus. ullam dictum felis
-                                eu pede mollis pretium. Pellentesque ut neque.</p>
-                        </div>
-                    </li>
-                    <li class="timeline-item">
-                        <div class="timeline-info">
-                            <span>March 23, 2016</span>
-                        </div>
-                        <div class="timeline-marker"></div>
-                        <div class="timeline-content">
-                            <h3 class="timeline-title">Event Title</h3>
-                            <p>Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Donec orci lectus, aliquam ut, faucibus non, euismod id, nulla. Donec vitae sapien ut libero venenatis faucibus. ullam dictum felis
-                                eu pede mollis pretium. Pellentesque ut neque. </p>
-                        </div>
-                    </li>
                     <li class="timeline-item period">
                         <div class="timeline-info"></div>
                         <div class="timeline-marker"></div>
                         <div class="timeline-content">
-                            <h2 class="timeline-title">April 2016</h2>
+                            <h2 class="timeline-title">March 2021</h2>
                         </div>
                     </li>
                     <li class="timeline-item">
                         <div class="timeline-info">
-                            <span>April 02, 2016</span>
+                            <h5 class="timeline-title">Awarding Night</h5>
+                            <br>
+                            <span>April 25, 2021</span>
+                            <br>
+                            <span>7pm - 9pm Western Indonesian Time</span>
                         </div>
                         <div class="timeline-marker"></div>
                         <div class="timeline-content">
-                            <h3 class="timeline-title">Event Title</h3>
-                            <p>Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Donec orci lectus, aliquam ut, faucibus non, euismod id, nulla. Donec vitae sapien ut libero venenatis faucibus. ullam dictum felis
-                                eu pede mollis pretium. Pellentesque ut neque. </p>
-                        </div>
-                    </li>
-                    <li class="timeline-item">
-                        <div class="timeline-info">
-                            <span>April 28, 2016</span>
-                        </div>
-                        <div class="timeline-marker"></div>
-                        <div class="timeline-content">
-                            <h3 class="timeline-title">Event Title</h3>
-                            <p>Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Donec orci lectus, aliquam ut, faucibus non, euismod id, nulla. Donec vitae sapien ut libero venenatis faucibus. ullam dictum felis
-                                eu pede mollis pretium. Pellentesque ut neque. </p>
+                            
                         </div>
                     </li>
                 </ul>
@@ -132,6 +60,46 @@
 
 <!-- ***** Timeline End ***** -->
 
+<!-- ***** Features Big Item Start ***** -->
+<section class="section timeline-bg" id="bcc">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-heading">
+                    <h2> <b> "GET YOURSELF READY, DON’T FORGET TO REGISTER." </b> </h2>
+                    <hr>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12 mobile-bottom-fix d-flex align-items-stretch" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+                <div class="card">
+                  <img class="card-img-top" src="/images/event/speaker/mrx.png" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title text-center">PERFORMANCE</h5>
+                    <p class="card-text">We will show you the most entertaining performance of various famous and trending Indonesian artists!</p>
+                  </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12 mobile-bottom-fix d-flex align-items-stretch" data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
+                <div class="card">
+                  <img class="card-img-top" src="/images/event/speaker/mrsy.png" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title text-center">“TalkShow”</h5>
+                    <p class="card-text"> You will not regret coming to this talkshow as we provide insightful information in the session!</p>
+                  </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12 mobile-bottom-fix d-flex align-items-stretch" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+                <div class="card">
+                  <img class="card-img-top" src="/images/event/speaker/random.png" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title text-center">AND MANY MORE…..</h5>
+                    <p class="card-text"></p>
+                  </div>
+                </div>
+            </div>
+    </div>
+</section>
+<!-- ***** Features Big Item End ***** --> 
 
 <!-- ***** Frequently Question Start ***** -->
 <section class="section faq-bg" id="frequently-question">
@@ -152,89 +120,53 @@
                 <div class="accordions is-first-expanded">
                     <article class="accordion">
                         <div class="accordion-head">
-                            <span>First Common Question</span>
+                            <span>Will there be an artist?</span>
                             <span class="icon">
                                 <i class="icon fa fa-chevron-down"></i>
                             </span>
                         </div>
                         <div class="accordion-body">
                             <div class="content">
-                                <p>Duis vulputate porttitor urna sit amet pretium. Phasellus sed pulvinar eros, condimentum consequat ex. Suspendisse potenti.
-                                <br><br>
-                                Pellentesque maximus lorem sed elit imperdiet mattis. Duis posuere mauris ut eros rutrum sodales. Aliquam erat volutpat.</p>
+                                <p> Yes, of course, and it’s not just one. </p>
                             </div>
                         </div>
                     </article>
                     <article class="accordion">
                         <div class="accordion-head">
-                            <span>Second Question Answer</span>
+                            <span>How can we register?</span>
                             <span class="icon">
                                 <i class="icon fa fa-chevron-down"></i>
                             </span>
                         </div>
                         <div class="accordion-body">
                             <div class="content">
-                                <p>Sed odio elit, cursus sed consequat at, rutrum eget augue. Cras ac eros iaculis, tempor quam sit amet, scelerisque mi. Quisque eu risus eget nunc porttitor vestibulum at a ante.
-                                <br><br>
-                                Praesent ut placerat turpis, vel pellentesque dolor. Sed rutrum eleifend tortor, eu luctus orci sagittis in. In blandit fringilla mollis.</p>
+                                <p>Please stay tuned for the information on our website and social media.</p>
                             </div>
                         </div>
                     </article>
                     <article class="accordion">
                         <div class="accordion-head">
-                            <span>Third Answer for you</span>
+                            <span>Is this only for SBM students or not?</span>
                             <span class="icon">
                                 <i class="icon fa fa-chevron-down"></i>
                             </span>
                         </div>
                         <div class="accordion-body">
                             <div class="content">
-                                <p>Proin feugiat ante ut vulputate rutrum. Nam quis erat turpis. Nullam maximus pharetra lorem, eu condimentum est iaculis ut. Pellentesque mattis ultrices dignissim. 
-                                <br><br>
-                                Etiam et enim finibus, feugiat massa efficitur, finibus sapien. Sed cursus lacus quis arcu scelerisque, eget ornare risus maximus. Aenean non lectus id odio rhoncus pharetra.</p>
+                                <p>No, it’s for everyone. We are ready and happy to welcome everyone.</p>
                             </div>
                         </div>
                     </article>
                     <article class="accordion">
                         <div class="accordion-head">
-                            <span>Fourth Question Asked</span>
+                            <span>Do we have to pay to watch?</span>
                             <span class="icon">
                                 <i class="icon fa fa-chevron-down"></i>
                             </span>
                         </div>
                         <div class="accordion-body">
                             <div class="content">
-                                <p>Phasellus eu purus ornare, eleifend orci nec, egestas nulla. Sed sed aliquet sapien. Proin placerat, ipsum eu posuere blandit, tellus quam consectetur nisi, id sollicitudin diam ex at nisi.
-                                <br><br>
-                                Aenean fermentum eget turpis egestas semper. Sed finibus mollis venenatis. Praesent at sem in massa iaculis pharetra.</p>
-                            </div>
-                        </div>
-                    </article>
-                    <article class="accordion">
-                        <div class="accordion-head">
-                            <span>Fifth Ever Question</span>
-                            <span class="icon">
-                                <i class="icon fa fa-chevron-down"></i>
-                            </span>
-                        </div>
-                        <div class="accordion-body">
-                            <div class="content">
-                                <p>Quisque aliquet ipsum ut magna rhoncus, euismod lacinia elit rhoncus. Sed sapien elit, mollis ut ultricies quis, fermentum nec ante.
-                                <br><br>
-                                Sed nec ex nec tortor fermentum sollicitudin id ut ligula. Ut sagittis rutrum lectus, non sagittis ante euismod eu. </p>
-                            </div>
-                        </div>
-                    </article>
-                    <article class="accordion">
-                        <div class="accordion-head">
-                            <span>Sixth Sense Question</span>
-                            <span class="icon">
-                                <i class="icon fa fa-chevron-down"></i>
-                            </span>
-                        </div>
-                        <div class="accordion-body">
-                            <div class="content">
-                                <p>Suspendisse potenti. Ut dapibus leo ut massa vulputate semper. Pellentesque maximus lorem sed elit imperdiet mattis. Duis posuere mauris ut eros rutrum sodales. Aliquam erat volutpat.</p>
+                                <p>Yes, but we promise to provide a very valuable price as we are also students.</p>
                             </div>
                         </div>
                     </article>
@@ -252,7 +184,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="text-center">
-                        <a href="#" class="section-button">Register</a>
+                        <a href="#" class="section-button">Coming Soon</a>
                     </div>
                 </div>
             </div>

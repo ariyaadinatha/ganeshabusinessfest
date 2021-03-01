@@ -2,7 +2,10 @@
 
 @section('jumbotronImage', '../images/section-bg.png')
 @section('title', 'Exhibition')
-@section('subtitle', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis molestias deleniti explicabo dicta quod, animi assumenda distinctio aliquid labore mollitia, repellat sint voluptatibus numquam culpa incidunt velit! Optio, quibusdam nisi!')
+@section('subtitle', '
+In this exhibition we will showcase business ideas and developed businesses
+from students and alumni from SBM ITB which will be open to public and
+there will be judging by competent judges in the business sector.')
 
 
 @section('content')
@@ -25,55 +28,70 @@
         <div class="row pt-5">
             <div class="col-lg-12 col-md-12 col-sm-12 mobile-bottom-fix" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
                 <ul class="timeline timeline-centered">
-                    <li class="timeline-item">
-                        <div class="timeline-info">
-                            <span>March 12, 2016</span>
-                        </div>
+                    <li class="timeline-item period">
+                        <div class="timeline-info"></div>
                         <div class="timeline-marker"></div>
                         <div class="timeline-content">
-                            <h3 class="timeline-title">Event Title</h3>
-                            <p>Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Donec orci lectus, aliquam ut, faucibus non, euismod id, nulla. Donec vitae sapien ut libero venenatis faucibus. ullam dictum felis
-                                eu pede mollis pretium. Pellentesque ut neque.</p>
+                            <h2 class="timeline-title">Febuary 2021</h2>
                         </div>
                     </li>
                     <li class="timeline-item">
                         <div class="timeline-info">
-                            <span>March 23, 2016</span>
+                            <span>Febuary 20, 2021</span>
                         </div>
                         <div class="timeline-marker"></div>
                         <div class="timeline-content">
-                            <h3 class="timeline-title">Event Title</h3>
-                            <p>Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Donec orci lectus, aliquam ut, faucibus non, euismod id, nulla. Donec vitae sapien ut libero venenatis faucibus. ullam dictum felis
-                                eu pede mollis pretium. Pellentesque ut neque. </p>
+                            <h5 class="timeline-title">Open Registration Business Idea for SBM ITB Students and Alumni</h5>
                         </div>
                     </li>
                     <li class="timeline-item period">
                         <div class="timeline-info"></div>
                         <div class="timeline-marker"></div>
                         <div class="timeline-content">
-                            <h2 class="timeline-title">April 2016</h2>
+                            <h2 class="timeline-title">March 2021</h2>
                         </div>
                     </li>
                     <li class="timeline-item">
                         <div class="timeline-info">
-                            <span>April 02, 2016</span>
+                            <span>March 12, 2021</span>
                         </div>
                         <div class="timeline-marker"></div>
                         <div class="timeline-content">
-                            <h3 class="timeline-title">Event Title</h3>
-                            <p>Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Donec orci lectus, aliquam ut, faucibus non, euismod id, nulla. Donec vitae sapien ut libero venenatis faucibus. ullam dictum felis
-                                eu pede mollis pretium. Pellentesque ut neque. </p>
+                            <h5 class="timeline-title">Close Registration Business Idea for SBM ITB Students and Alumni</h5>
                         </div>
                     </li>
                     <li class="timeline-item">
                         <div class="timeline-info">
-                            <span>April 28, 2016</span>
+                            <span>March 13 - 19, 2021</span>
                         </div>
                         <div class="timeline-marker"></div>
                         <div class="timeline-content">
-                            <h3 class="timeline-title">Event Title</h3>
-                            <p>Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Donec orci lectus, aliquam ut, faucibus non, euismod id, nulla. Donec vitae sapien ut libero venenatis faucibus. ullam dictum felis
-                                eu pede mollis pretium. Pellentesque ut neque. </p>
+                            <h5 class="timeline-title">Business Idea Selection by Judges</h5>
+                        </div>
+                    </li>
+                    <li class="timeline-item">
+                        <div class="timeline-info">
+                            <span>March 20, 2021</span>
+                        </div>
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h5 class="timeline-title">Business Exhibition Announcement</h5>
+                        </div>
+                    </li>
+                    <li class="timeline-item period">
+                        <div class="timeline-info"></div>
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h2 class="timeline-title">April 2021</h2>
+                        </div>
+                    </li>
+                    <li class="timeline-item">
+                        <div class="timeline-info">
+                            <span>April 10 - 11, 2021</span>
+                        </div>
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h5 class="timeline-title">D - Day Exhibition</h5>
                         </div>
                     </li>
                 </ul>
@@ -104,89 +122,127 @@
                 <div class="accordions is-first-expanded">
                     <article class="accordion">
                         <div class="accordion-head">
-                            <span>First Common Question</span>
+                            <span>What is Exhibition in Ganesha Business Festival 2021?</span>
                             <span class="icon">
                                 <i class="icon fa fa-chevron-down"></i>
                             </span>
                         </div>
                         <div class="accordion-body">
                             <div class="content">
-                                <p>Duis vulputate porttitor urna sit amet pretium. Phasellus sed pulvinar eros, condimentum consequat ex. Suspendisse potenti.
-                                <br><br>
-                                Pellentesque maximus lorem sed elit imperdiet mattis. Duis posuere mauris ut eros rutrum sodales. Aliquam erat volutpat.</p>
+                                <p>
+                                    It is an event that will showcase various business ideas and developed businesses by SBM ITB students and alumnies.
+                                </p>
                             </div>
                         </div>
                     </article>
                     <article class="accordion">
                         <div class="accordion-head">
-                            <span>Second Question Answer</span>
+                            <span>Can I showcase my business in GBF 2021 Exhibition?</span>
                             <span class="icon">
                                 <i class="icon fa fa-chevron-down"></i>
                             </span>
                         </div>
                         <div class="accordion-body">
                             <div class="content">
-                                <p>Sed odio elit, cursus sed consequat at, rutrum eget augue. Cras ac eros iaculis, tempor quam sit amet, scelerisque mi. Quisque eu risus eget nunc porttitor vestibulum at a ante.
-                                <br><br>
-                                Praesent ut placerat turpis, vel pellentesque dolor. Sed rutrum eleifend tortor, eu luctus orci sagittis in. In blandit fringilla mollis.</p>
+                                <p>
+                                    If you are currently a student in SBM ITB or an alumni from SBM ITB, then yes you can. But if you are not, then unfortunately you can’t.
+                                </p>
                             </div>
                         </div>
                     </article>
                     <article class="accordion">
                         <div class="accordion-head">
-                            <span>Third Answer for you</span>
+                            <span>When is the Exhibition going to be held?</span>
                             <span class="icon">
                                 <i class="icon fa fa-chevron-down"></i>
                             </span>
                         </div>
                         <div class="accordion-body">
                             <div class="content">
-                                <p>Proin feugiat ante ut vulputate rutrum. Nam quis erat turpis. Nullam maximus pharetra lorem, eu condimentum est iaculis ut. Pellentesque mattis ultrices dignissim. 
-                                <br><br>
-                                Etiam et enim finibus, feugiat massa efficitur, finibus sapien. Sed cursus lacus quis arcu scelerisque, eget ornare risus maximus. Aenean non lectus id odio rhoncus pharetra.</p>
+                                <p>In the upcoming April, 10th and 11th of April 2021.</p>
                             </div>
                         </div>
                     </article>
                     <article class="accordion">
                         <div class="accordion-head">
-                            <span>Fourth Question Asked</span>
+                            <span>I’m currently not an SBM ITB student nor a graduate from SBM ITB, can I still see the exhibition?</span>
                             <span class="icon">
                                 <i class="icon fa fa-chevron-down"></i>
                             </span>
                         </div>
                         <div class="accordion-body">
                             <div class="content">
-                                <p>Phasellus eu purus ornare, eleifend orci nec, egestas nulla. Sed sed aliquet sapien. Proin placerat, ipsum eu posuere blandit, tellus quam consectetur nisi, id sollicitudin diam ex at nisi.
-                                <br><br>
-                                Aenean fermentum eget turpis egestas semper. Sed finibus mollis venenatis. Praesent at sem in massa iaculis pharetra.</p>
+                                <p>
+                                    Yes, you are very welcome to join and attend our exhibition. 
+                                    Come and check out various business ideas and real businesses that
+                                    have been running by SBM ITB students.
+                                </p>
                             </div>
                         </div>
                     </article>
                     <article class="accordion">
                         <div class="accordion-head">
-                            <span>Fifth Ever Question</span>
+                            <span>Is there any entrance fee?</span>
                             <span class="icon">
                                 <i class="icon fa fa-chevron-down"></i>
                             </span>
                         </div>
                         <div class="accordion-body">
                             <div class="content">
-                                <p>Quisque aliquet ipsum ut magna rhoncus, euismod lacinia elit rhoncus. Sed sapien elit, mollis ut ultricies quis, fermentum nec ante.
-                                <br><br>
-                                Sed nec ex nec tortor fermentum sollicitudin id ut ligula. Ut sagittis rutrum lectus, non sagittis ante euismod eu. </p>
+                                <p>No, this exhibition is open for public and completely free.</p>
                             </div>
                         </div>
                     </article>
                     <article class="accordion">
                         <div class="accordion-head">
-                            <span>Sixth Sense Question</span>
+                            <span>Is there a theme on the exhibition?</span>
                             <span class="icon">
                                 <i class="icon fa fa-chevron-down"></i>
                             </span>
                         </div>
                         <div class="accordion-body">
                             <div class="content">
-                                <p>Suspendisse potenti. Ut dapibus leo ut massa vulputate semper. Pellentesque maximus lorem sed elit imperdiet mattis. Duis posuere mauris ut eros rutrum sodales. Aliquam erat volutpat.</p>
+                                <p>Yes, the theme of our exhibition is 
+                                    <i> “Sustainable business benefiting from industry 4.0 development” </i> </p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="accordion">
+                        <div class="accordion-head">
+                            <span>What event does Exhibition offer besides showcasing business ideas?</span>
+                            <span class="icon">
+                                <i class="icon fa fa-chevron-down"></i>
+                            </span>
+                        </div>
+                        <div class="accordion-body">
+                            <div class="content">
+                                <p>There will be talkshows from speakers... and a performance as well on our main stage</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="accordion">
+                        <div class="accordion-head">
+                            <span>Was there a Ganesha Business Festival last year too?</span>
+                            <span class="icon">
+                                <i class="icon fa fa-chevron-down"></i>
+                            </span>
+                        </div>
+                        <div class="accordion-body">
+                            <div class="content">
+                                <p>This is the first GBF to ever be held.</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="accordion">
+                        <div class="accordion-head">
+                            <span>Who can showcase their ideas in the exhibition?</span>
+                            <span class="icon">
+                                <i class="icon fa fa-chevron-down"></i>
+                            </span>
+                        </div>
+                        <div class="accordion-body">
+                            <div class="content">
+                                <p>Unfortunately, only on-going SBM ITB students who are able to showcase their ideas.</p>
                             </div>
                         </div>
                     </article>

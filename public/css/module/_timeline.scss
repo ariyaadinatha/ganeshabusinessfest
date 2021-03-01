@@ -20,6 +20,12 @@ $primary-color-hover: scale-color($primary-color, $lightness: 32%);
     }
 }
 
+.timeline-item {
+    h5 {
+        font-size: 25px;
+    }
+}
+
 /*----- TIMELINE ITEM -----*/
 
 .timeline-item {
@@ -33,8 +39,8 @@ $primary-color-hover: scale-color($primary-color, $lightness: 32%);
 /*----- TIMELINE INFO -----*/
 
 .timeline-info {
-    font-size: 12px;
-    font-weight: 700;
+    font-size: 25px;
+    font-weight: 600;
     letter-spacing: 3px;
     margin: 0 0 0.5em 0;
     text-transform: uppercase;
@@ -242,5 +248,15 @@ $primary-color-hover: scale-color($primary-color, $lightness: 32%);
     }
     .timeline-item:hover .timeline-marker:before {
         background: $primary-color;
+    }
+}
+
+@media (max-width: 765px) {
+    .timeline-info {
+        font-size: 15px;
+    }
+    .timeline-item h5,
+    h3 {
+        font-size: 15px;
     }
 }

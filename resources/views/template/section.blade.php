@@ -53,8 +53,9 @@
                             <li class="submenu" id="#bcc">
                                 <a href="javascript:;">BCC</a>
                                 <ul>
-                                    <li><a href="/bcc/shs">SHS</a></li>
+                                    <li><a href="/bcc/shs">Highschool</a></li>
                                     <li><a href="/bcc/undergraduate">Undergraduate</a></li>
+                                    <li><a href="/bcc/bootcamp">Bootcamp</a></li>
                                 </ul>
                             </li>
                             <li class="scroll-to-section"><a href="#timeline">Timeline</a></li>
@@ -108,23 +109,29 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-12 col-sm-12 pb-3">
-                    <ul class="social d-flex flex-column">
+                    <ul class="social d-flex flex-column align-items-start">
                         <li>
                             <a href="#"><i class="fa fa-envelope align-middle"></i></a>
-                            Lorem Ipsum
+                            ganeshabusinessfest@sbm-itb.ac.id
                         </li>
                         <li>
                             <a href="#"><i class="fa fa-linkedin align-middle"></i></a>
-                            Lorem Ipsum
+                            Ganesha Business Festival
                         </li>
                         <li>
                             <a href="#"><i class="fa fa-instagram align-middle"></i></a>
-                            Lorem Ipsum
+                            ganeshabusinessfest
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-line align-middle"> 
+                                <img src="{{ URL::asset('images/icons/line-brands.svg') }}" width="25px"> 
+                            </i></a>
+                            @754xqrtm
                         </li>
                     </ul>
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12">
-                    <img src="{{ URL::asset('images/gbf.png') }}" width="350" alt="" class="justify-content-center align-self-center">
+                    <img src="{{ URL::asset('images/gbf.png') }}" width="350" alt="" class="justify-content-center align-self-center footer-logo">
                 </div>
             </div>
         </div>
