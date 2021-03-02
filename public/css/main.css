@@ -1344,9 +1344,10 @@ a.section-button:hover {
 }
 
 .about-logo {
-  width: 50%;
-  height: auto;
+  width: auto;
   margin-bottom: 20px;
+  height: 40vh;
+  padding-top: 10vh;
 }
 
 #about {
@@ -2124,6 +2125,10 @@ a.section-button:hover {
     padding-top: 5px;
     width: 250px;
     height: auto;
+  }
+  .about-logo {
+    height: 40vh;
+    margin-top: 20vh;
   }
 }
 

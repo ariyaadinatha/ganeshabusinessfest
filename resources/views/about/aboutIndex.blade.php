@@ -8,7 +8,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
-                <img src="/images/gbf.png" class="about-logo rounded d-block mx-auto" alt="App" height="30vw">
+                <img src="/images/gbf.png" class="about-logo rounded d-block mx-auto" alt="App">
             </div>
         </div>
         <div class="row">
