@@ -144,6 +144,7 @@
                         Coming Soon ! 
                     <br>
                     <br>
+                    <br>
                     </p>
                     <div class="d-flex flex-row text-center">
                         <a href="#" class="main-button "> <b> Closed </b> </a>

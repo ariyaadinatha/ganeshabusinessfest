@@ -56,7 +56,14 @@ Provided with relevant topics of today, with the purpose to prepare participants
                         <button type="button" class="btn btn-outline-event btn-lg" onclick="showEvent('event2')" id="button2"> Pre-Event 2 </button>
                         <button type="button" class="btn btn-outline-event btn-lg" onclick="showEvent('event3')" id="button3"> Pre-Event 3 </button>
                         <button type="button" class="btn btn-outline-event btn-lg" onclick="showEvent('event4')" id="button4"> Pre-Event 4 </button>
-
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <select class="custom-select">
+                            <option onclick="showEvent('event1')" id="button1">Pre-Event 1 </option>
+                            <option onclick="showEvent('event2')" id="button2">Pre-Event 2 </option>
+                            <option onclick="showEvent('event3')" id="button3">Pre-Event 3 </option>
+                            <option onclick="showEvent('event4')" id="button4">Pre-Event 4 </option>
+                        </select>
                     </div>
                 </div>
                 <div class="col-lg-12 col-md-12 col-sm-12 mobile-bottom-fix" class="event-desc" id="event1">

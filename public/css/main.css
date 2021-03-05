@@ -999,10 +999,6 @@ a.section-button:hover {
   color: #ead4a0 !important;
 }
 
-.background-header .main-nav .menu-trigger {
-  background-color: #727272;
-}
-
 .background-header .main-nav .menu-trigger span {
   background-color: #1e1e1e;
 }
@@ -1034,15 +1030,15 @@ a.section-button:hover {
   top: 0px;
   left: 0px;
   right: 0px;
-  z-index: 100;
-  height: 100px;
+  z-index: 80;
+  height: 80px;
   -webkit-transition: all 0.5s ease 0s;
   transition: all 0.5s ease 0s;
+  background-color: #fff;
 }
 
 .header-area .main-nav {
   min-height: 80px;
-  background: transparent;
 }
 
 .header-area .main-nav .logo {
@@ -1081,7 +1077,7 @@ a.section-button:hover {
   display: block;
   font-weight: 500;
   font-size: 13px;
-  color: #fff;
+  color: #1e1e1e;
   text-transform: uppercase;
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
@@ -1194,7 +1190,7 @@ a.section-button:hover {
 .header-area .main-nav .menu-trigger span {
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
-  background-color: #fff;
+  background-color: #727272;
   display: block;
   position: absolute;
   width: 30px;
@@ -1206,7 +1202,6 @@ a.section-button:hover {
 .header-area .main-nav .menu-trigger span:before {
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
-  background-color: #fff;
   display: block;
   position: absolute;
   width: 30px;
@@ -1214,7 +1209,7 @@ a.section-button:hover {
   left: 0;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
-  background-color: #fff;
+  background-color: #727272;
   display: block;
   position: absolute;
   width: 30px;
@@ -1231,7 +1226,6 @@ a.section-button:hover {
 .header-area .main-nav .menu-trigger span:after {
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
-  background-color: #fff;
   display: block;
   position: absolute;
   width: 30px;
@@ -1239,7 +1233,7 @@ a.section-button:hover {
   left: 0;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
-  background-color: #fff;
+  background-color: #727272;
   display: block;
   position: absolute;
   width: 30px;
@@ -1262,7 +1256,7 @@ a.section-button:hover {
   width: 100%;
   -webkit-transform: translateY(6px) translateX(1px) rotate(45deg);
   transform: translateY(6px) translateX(1px) rotate(45deg);
-  background-color: #fff;
+  background-color: #727272;
 }
 
 .header-area .main-nav .menu-trigger.active span:after {
@@ -1270,7 +1264,7 @@ a.section-button:hover {
   width: 100%;
   -webkit-transform: translateY(-6px) translateX(1px) rotate(-45deg);
   transform: translateY(-6px) translateX(1px) rotate(-45deg);
-  background-color: #fff;
+  background-color: #727272;
 }
 
 .header-area.background-header .main-nav .nav li.submenu:after {
@@ -1737,6 +1731,23 @@ a.section-button:hover {
   margin: 10px;
 }
 
+.custom-select {
+  width: 40%;
+  height: auto;
+  font-weight: bold;
+  position: relative;
+  background-color: #ead4a0;
+  padding: 10px;
+  border: solid 2px;
+  border-radius: 25px;
+  display: none;
+}
+
+.select-selected {
+  background-color: #171a47;
+  color: #ead4a0;
+}
+
 .event-desc {
   padding-left: 18%;
   padding-right: 18%;
@@ -1880,7 +1891,6 @@ a.section-button:hover {
   .header-area .main-nav .nav {
     float: none;
     width: 100%;
-    margin-top: 80px !important;
     display: none;
     -webkit-transition: all 0s ease 0s;
     transition: all 0s ease 0s;
@@ -2129,6 +2139,12 @@ a.section-button:hover {
   .about-logo {
     height: 40vh;
     margin-top: 20vh;
+  }
+  .event-select {
+    display: none !important;
+  }
+  .custom-select {
+    display: inline-block;
   }
 }
 

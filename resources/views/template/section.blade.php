@@ -42,7 +42,7 @@
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
                             <li class="scroll-to-section"><a href="/landing">Home</a></li>
-                            <li class="submenu" id="#events">
+                            <li class="submenu submenu-events" id="#events">
                                 <a href="javascript:;">Events</a>
                                 <ul>
                                     <li><a href="/event/preevent">Pre-Event</a></li>
@@ -50,7 +50,7 @@
                                     <li><a href="/event/awarding">Awarding</a></li>
                                 </ul>
                             </li>
-                            <li class="submenu" id="#bcc">
+                            <li class="submenu submenu-bcc" id="#bcc">
                                 <a href="javascript:;">BCC</a>
                                 <ul>
                                     <li><a href="/bcc/shs">Highschool</a></li>

@@ -32,12 +32,20 @@
   });
 
   // Mobile menu dropdown
-  $(".submenu").on("click", function() {
+  $(".submenu-events").on("click", function() {
     var width = $(window).width();
     if (width < 992) {
-      $(".submenu ul").toggleClass("active");
+      $(".submenu-events ul").toggleClass("active");
     }
   });
+
+  $(".submenu-bcc").on("click", function() {
+    var width = $(window).width();
+    if (width < 992) {
+      $(".submenu-bcc ul").toggleClass("active");
+    }
+  });
+
 
   // Scroll animation init
   window.sr = new scrollReveal();

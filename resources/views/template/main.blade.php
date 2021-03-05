@@ -26,29 +26,29 @@
 <body>
     
     <!-- ***** Header Area Start ***** -->
-    <header class="header-area header-sticky">
+    <header class="header-area header-sticky background-header">
         <div class="container">
             <div class="row">
                 <div class="col-12">
                     <nav class="main-nav navbar">
                         <!-- ***** Logo Start ***** -->
                           <a class="navbar-brand" href="/landing">
-                            <img src="{{ URL::asset('images/gbf.png') }}" width="100px" height="60px" alt="">
+                              <img src="{{ URL::asset('images/gbf.png') }}" width="100px" height="60px" alt="">
                           </a>
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
                             <li class="scroll-to-section"><a href="/landing">Home</a></li>
-                            <li class="submenu" id="#events">
-                                <a href="javascript:;">Events</a>
+                            <li class="submenu submenu-events" id="#submenu-events">
+                                <a href="#">Events</a>
                                 <ul>
                                     <li><a href="/event/preevent">Pre-Event</a></li>
                                     <li><a href="/event/exhibition">Exhibition</a></li>
                                     <li><a href="/event/awarding">Awarding</a></li>
                                 </ul>
                             </li>
-                            <li class="submenu" id="#bcc">
-                                <a href="javascript:;">BCC</a>
+                            <li class="submenu submenu-bcc" id="#bcc">
+                                <a href="#">BCC</a>
                                 <ul>
                                     <li><a href="/bcc/shs">Highschool</a></li>
                                     <li><a href="/bcc/undergraduate">Undergraduate</a></li>
