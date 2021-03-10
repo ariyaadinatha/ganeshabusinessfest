@@ -13,25 +13,25 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item" id="carousel-item1">
-            <img class="d-block vh-100 vw-100" src="/images/carousel1.jpg" alt="First slide">
+            <img class="d-block vh-100 vw-100" src="/images/carousel1.png" alt="First slide">
             <div class="carousel-caption d-md-block">
               <h2 class="display-1">What is GBF?</h2>
               <a href="/about"><button type="button" class="btn btn-outline-carousel btn-lg"> Learn More </button> </a>
             </div>
           </div>
           <div class="carousel-item active" id="carousel-item2">
-            <img class="d-block vh-100 vw-100 layer-carousel" src="/images/carousel2.jpg" alt="Second slide">
-            <div class="carousel-caption d-md-block">
+            <img class="d-block vh-100 vw-100 layer-carousel" src="/images/carousel2.png" alt="Second slide">
+            <!--  <div class="carousel-caption d-md-block">
               <h2 class="display-1">The First-Ever <br> <span class="carousel-main"> Ganesha Business Festival </span> </h2>
               <p>...</p>
-            </div>
+            </div> -->
           </div>
           <div class="carousel-item" id="carousel-item3">
-            <img class="d-block vh-100 vw-100 layer-carousel" src="/images/carousel3.jpg" alt="Third slide">
-            <div class="carousel-caption d-md-block">
-              <h2 class="display-4">Check Out This Article!</h2>
-              <p>...</p>
-            </div>
+            <img class="d-block vh-100 vw-100 layer-carousel" src="/images/carousel3.png" alt="Third slide">
+            <!-- <div class="carousel-caption d-md-block">
+                <h2 class="display-4"> Check Out This Article!</h2>
+                <p>...</p>
+            </div> -->
           </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" onclick="$('#carouselExampleIndicators').carousel('prev')" data-slide="prev">
@@ -63,7 +63,7 @@
                 </div>
                 <div class="col-lg-4 col-md-12 col-sm-12 mobile-bottom-fix d-flex align-items-stretch" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
                     <div class="card">
-                      <img class="card-img-top" src="/images/mun.png" alt="Card image cap">
+                      <img class="card-img-top card-img" src="/images/assets/event.png" alt="Pre Event">
                       <div class="card-body">
                         <h5 class="card-title text-center"> <a href="/event/preevent">Pre-Event </a></h5>
                         <p class="card-text text-center">Chain of interactive events acting as a build-up to the main event.</p>
@@ -72,7 +72,7 @@
                 </div>
                 <div class="col-lg-4 col-md-12 col-sm-12 mobile-bottom-fix d-flex align-items-stretch" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
                     <div class="card">
-                      <img class="card-img-top" src="/images/mun.png" alt="Card image cap">
+                      <img class="card-img-top card-img" src="/images/assets/bcc.png" alt="Card image cap">
                       <div class="card-body">
                         <h5 class="card-title text-center"> <a href="/event/exhibition">Exhibition </a></h5>
                         <p class="card-text text-center">Showcase business ideas and developed businesses
@@ -82,7 +82,7 @@
                 </div>
                 <div class="col-lg-4 col-md-12 col-sm-12 mobile-bottom-fix d-flex align-items-stretch" data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
                     <div class="card">
-                      <img class="card-img-top" src="/images/mun.png" alt="Card image cap">
+                      <img class="card-img-top card-img" src="/images/assets/awarding.png" alt="Card image cap">
                       <div class="card-body">
                         <h5 class="card-title text-center"> <a href="/event/awarding">Awarding </a></h5>
                         <p class="card-text text-center"> Aimed to express the greatest gratitude to the winners and create a
@@ -110,7 +110,7 @@
 
             <div class="col-lg-4 col-md-12 col-sm-12 mobile-bottom-fix d-flex align-items-stretch" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
                 <div class="card">
-                  <img class="card-img-top bcc-img" src="/images/slider-icon.png" alt="Card image cap" >
+                  <img class="card-img-top card-img" src="/images/assets/hs.png" alt="Card image cap" >
                   <div class="card-body">
                     <h5 class="card-title text-center"><a href="/bcc/shs"> Highschool Competition </a></h5>
                     <p class="card-text"> Business competition to challenge high school students, have the chance to win a substantial amount of prize!</p>
@@ -123,7 +123,7 @@
             </div>
             <div class="col-lg-4 col-md-12 col-sm-12 mobile-bottom-fix d-flex align-items-stretch" data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
                 <div class="card">
-                  <img class="card-img-top bcc-img" src="/images/right-image.png" alt="Card image cap" >
+                  <img class="card-img-top card-img" src="/images/assets/under.png" alt="Card image cap" >
                   <div class="card-body">
                     <h5 class="card-title text-center"><a href="/bcc/undergraduate">Undergrad Student Competition</a></h5>
                     <p class="card-text">Business competition to challenge undergraduate students, have the chance to win a substantial amount of prize!</p>
@@ -136,9 +136,9 @@
             </div>
             <div class="col-lg-4 col-md-12 col-sm-12 mobile-bottom-fix d-flex align-items-stretch" data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
                 <div class="card">
-                  <img class="card-img-top bcc-img" src="/images/left-image.png" alt="Card image cap" >
+                  <img class="card-img-top card-img" src="/images/assets/bootcamp.png" alt="Card image cap" >
                   <div class="card-body">
-                    <h5 class="card-title text-center"><a href="/bcc/bootcamp">Bootcamp</a></h5>
+                    <h5 class="card-title text-center"><a href="#">Bootcamp</a></h5>
                     <p class="card-text text-center">
                     <br>
                         Coming Soon ! 
