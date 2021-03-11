@@ -22,46 +22,6 @@ Register your team (max 3 persons/team from the same or different institution) a
             </div>
         </div>
 
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="section-heading">
-                    <h2>Case Collaborator</h2>
-                    <hr>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-12 col-sm-12 mobile-bottom-fix d-flex align-items-stretch" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
-                <div class="card">
-                  <img class="card-img-top" src="/images/box.png" alt="Card image cap">
-                  <div class="card-body">
-                    <h5 class="card-title text-center">Case 1</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                  </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-12 col-sm-12 mobile-bottom-fix d-flex align-items-stretch" data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
-                <div class="card">
-                  <img class="card-img-top" src="/images/box.png" alt="Card image cap">
-                  <div class="card-body">
-                    <h5 class="card-title text-center">Case 2</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                  </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-12 col-sm-12 mobile-bottom-fix d-flex align-items-stretch" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
-                <div class="card">
-                  <img class="card-img-top" src="/images/box.png" alt="Card image cap">
-                  <div class="card-body">
-                    <h5 class="card-title text-center">Case 3</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                  </div>
-                </div>
-            </div>
-            <div class="col-lg-12 pt-5">
-                <div class="text-center">
-                    <a href="#" class="main-button">Guideline</a>
-                </div>
-            </div>
-        </div>
         <!-- ***** Section Title Start ***** -->
         <div class="row" id="timeline-heading">
             <div class="col-lg-12">
@@ -200,89 +160,53 @@ Register your team (max 3 persons/team from the same or different institution) a
                 <div class="accordions is-first-expanded">
                     <article class="accordion">
                         <div class="accordion-head">
-                            <span>First Common Question</span>
+                            <span>Who can participate in this Undergraduate Business Case Competition?</span>
                             <span class="icon">
                                 <i class="icon fa fa-chevron-down"></i>
                             </span>
                         </div>
                         <div class="accordion-body">
                             <div class="content">
-                                <p>Duis vulputate porttitor urna sit amet pretium. Phasellus sed pulvinar eros, condimentum consequat ex. Suspendisse potenti.
-                                <br><br>
-                                Pellentesque maximus lorem sed elit imperdiet mattis. Duis posuere mauris ut eros rutrum sodales. Aliquam erat volutpat.</p>
+                                <p>Students from all of the universities in Indonesia can participate in the competition.</p>
                             </div>
                         </div>
                     </article>
                     <article class="accordion">
                         <div class="accordion-head">
-                            <span>Second Question Answer</span>
+                            <span>How much is the registration fee?</span>
                             <span class="icon">
                                 <i class="icon fa fa-chevron-down"></i>
                             </span>
                         </div>
                         <div class="accordion-body">
                             <div class="content">
-                                <p>Sed odio elit, cursus sed consequat at, rutrum eget augue. Cras ac eros iaculis, tempor quam sit amet, scelerisque mi. Quisque eu risus eget nunc porttitor vestibulum at a ante.
-                                <br><br>
-                                Praesent ut placerat turpis, vel pellentesque dolor. Sed rutrum eleifend tortor, eu luctus orci sagittis in. In blandit fringilla mollis.</p>
+                                <p>The registration fee for Early bird (1 March 2021 - 7 March 2021) is Rp120.000/team. And the fee for Regular (8 March 2021 - 21 March 2021) is Rp150.000/team.</p>
                             </div>
                         </div>
                     </article>
                     <article class="accordion">
                         <div class="accordion-head">
-                            <span>Third Answer for you</span>
+                            <span>What is the theme of the case?</span>
                             <span class="icon">
                                 <i class="icon fa fa-chevron-down"></i>
                             </span>
                         </div>
                         <div class="accordion-body">
                             <div class="content">
-                                <p>Proin feugiat ante ut vulputate rutrum. Nam quis erat turpis. Nullam maximus pharetra lorem, eu condimentum est iaculis ut. Pellentesque mattis ultrices dignissim. 
-                                <br><br>
-                                Etiam et enim finibus, feugiat massa efficitur, finibus sapien. Sed cursus lacus quis arcu scelerisque, eget ornare risus maximus. Aenean non lectus id odio rhoncus pharetra.</p>
+                                <p>The theme of the case is <u> "Maximizing Opportunities from Shifting Consumer Behavior towards The Green Business Trend" </u>.</p>
                             </div>
                         </div>
                     </article>
                     <article class="accordion">
                         <div class="accordion-head">
-                            <span>Fourth Question Asked</span>
+                            <span>Where can I register for the business case competition?</span>
                             <span class="icon">
                                 <i class="icon fa fa-chevron-down"></i>
                             </span>
                         </div>
                         <div class="accordion-body">
                             <div class="content">
-                                <p>Phasellus eu purus ornare, eleifend orci nec, egestas nulla. Sed sed aliquet sapien. Proin placerat, ipsum eu posuere blandit, tellus quam consectetur nisi, id sollicitudin diam ex at nisi.
-                                <br><br>
-                                Aenean fermentum eget turpis egestas semper. Sed finibus mollis venenatis. Praesent at sem in massa iaculis pharetra.</p>
-                            </div>
-                        </div>
-                    </article>
-                    <article class="accordion">
-                        <div class="accordion-head">
-                            <span>Fifth Ever Question</span>
-                            <span class="icon">
-                                <i class="icon fa fa-chevron-down"></i>
-                            </span>
-                        </div>
-                        <div class="accordion-body">
-                            <div class="content">
-                                <p>Quisque aliquet ipsum ut magna rhoncus, euismod lacinia elit rhoncus. Sed sapien elit, mollis ut ultricies quis, fermentum nec ante.
-                                <br><br>
-                                Sed nec ex nec tortor fermentum sollicitudin id ut ligula. Ut sagittis rutrum lectus, non sagittis ante euismod eu. </p>
-                            </div>
-                        </div>
-                    </article>
-                    <article class="accordion">
-                        <div class="accordion-head">
-                            <span>Sixth Sense Question</span>
-                            <span class="icon">
-                                <i class="icon fa fa-chevron-down"></i>
-                            </span>
-                        </div>
-                        <div class="accordion-body">
-                            <div class="content">
-                                <p>Suspendisse potenti. Ut dapibus leo ut massa vulputate semper. Pellentesque maximus lorem sed elit imperdiet mattis. Duis posuere mauris ut eros rutrum sodales. Aliquam erat volutpat.</p>
+                                <p>You can register your team at <a href="https://bit.ly/BCRegisGBF21" target="_blank"> bit.ly/BCRegisGBF21 </a></p>
                             </div>
                         </div>
                     </article>
@@ -299,7 +223,7 @@ Register your team (max 3 persons/team from the same or different institution) a
             <div class="row">
                 <div class="col-lg-12">
                     <div class="text-center">
-                        <a href="#" class="section-button">Register</a>
+                        <a href="https://bit.ly/BCRegisGBF21" target="_blank" class="section-button">Register</a>
                     </div>
                 </div>
             </div>

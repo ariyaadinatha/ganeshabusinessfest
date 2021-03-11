@@ -71,7 +71,7 @@
     <!-- ***** Header Area End ***** -->
     @yield('content')
 
-    <!-- ***** Features Small Start ***** -->
+    <!-- ***** Features Small Start ***** 
     <section class="section sponsor-bg" id="services">
         <div class="container" id="sponsor">
             <div class="row">
@@ -90,7 +90,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- ***** Features Small End ***** -->
     
     <!-- ***** Footer Start ***** -->

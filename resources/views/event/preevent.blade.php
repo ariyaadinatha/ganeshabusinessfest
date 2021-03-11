@@ -14,34 +14,8 @@ Provided with relevant topics of today, with the purpose to prepare participants
 
 <!-- ***** Features Big Item Start ***** -->
 <a href="#bcc" id="toTopBtn" class="cd-top text-replace js-cd-top cd-top--is-visible cd-top--fade-out" data-abc="true"></a>
-<section class="section bcc-bg" id="bcc">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="section-heading">
-                    <h2>Speaker</h2>
-                    <hr>
-                </div>
-            </div>
-
-            <div class="col-lg-12 col-md-12 col-sm-12 d-flex justify-content-center" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
-                <div class="card" style="width: 30rem;">
-                  <img class="card" src="/images/event/speaker/mrsy.png" alt="Card image cap">
-                    <div class="card-body text-center">
-                        <h2>Speaker Name</h2>
-                    </div>
-                </div>
-            </div>
-
-
-    </div>
-</section>
-<!-- ***** Features Big Item End ***** -->
-
-
-<!-- ***** Features Big Item Start ***** -->
 <div id="events">
-    <section class="section event-bg" id="about2">
+    <section class="section bcc-bg" id="about2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -149,6 +123,34 @@ Provided with relevant topics of today, with the purpose to prepare participants
         </div>
     </section>
 </div>
+<!-- ***** Features Big Item End ***** -->
+
+
+<!-- ***** Features Big Item Start ***** -->
+
+
+<section class="section event-bg" id="bcc">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-heading">
+                    <h2>Speaker</h2>
+                    <hr>
+                </div>
+            </div>
+
+            <div class="col-lg-12 col-md-12 col-sm-12 d-flex justify-content-center" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+                <div class="card" style="width: 30rem;">
+                  <img class="card" src="/images/event/speaker/mrsy.png" alt="Card image cap">
+                    <div class="card-body text-center">
+                        <h2>Speaker Name</h2>
+                    </div>
+                </div>
+            </div>
+
+
+    </div>
+</section>
 
 
 <!-- ***** Timeline Start ***** -->
