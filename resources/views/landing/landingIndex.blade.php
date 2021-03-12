@@ -116,7 +116,7 @@
                     <p class="card-text"> Business competition to challenge high school students, have the chance to win a substantial amount of prize!</p>
                     <div class="d-flex flex-row text-center">
                         <a href="https://bit.ly/BPRegisGBF21" target="_blank" class="main-button "> <b> Register </b> </a>
-                        <a href="#" class="main-button "> <b> Guideline </b> </a>
+                        <a href="../guideline/GBF_2021_Business_Plan_Guidebook.pdf" target="_blank" class="main-button "> <b> Guideline </b> </a>
                     </div>
                   </div>
                 </div>
@@ -129,7 +129,7 @@
                     <p class="card-text">Business competition to challenge undergraduate students, have the chance to win a substantial amount of prize!</p>
                     <div class="d-flex flex-row text-center">
                         <a href="https://bit.ly/BCRegisGBF21" target="_blank" class="main-button "> <b> Register </b> </a>
-                        <a href="#" class="main-button "> <b> Guideline </b> </a>
+                        <a href="../guideline/Guidebook_Business_Case_GBF21.pdf" target="_blank" class="main-button "> <b> Guideline </b> </a>
                     </div>
                   </div>
                 </div>

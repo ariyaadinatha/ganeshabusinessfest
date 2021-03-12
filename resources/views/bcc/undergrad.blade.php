@@ -20,6 +20,11 @@ Register your team (max 3 persons/team from the same or different institution) a
                 <hr>
                 <p class="bcc-topic"> "Maximizing Opportunities from Shifting Consumer Behavior towards the Green Business Trend" </p>
             </div>
+            <div class="col-lg-12 pt-5">
+                <div class="text-center">
+                    <a href="../guideline/Guidebook_Business_Case_GBF21.pdf" target="_blank" class="main-button">Guideline</a>
+                </div>
+            </div>
         </div>
 
         <!-- ***** Section Title Start ***** -->

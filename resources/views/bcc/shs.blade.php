@@ -56,12 +56,12 @@ A national business competition to challenge high school students to make an inn
                     <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                   </div>
                 </div>
-            </div> 
+            </div> -->
             <div class="col-lg-12 pt-5">
                 <div class="text-center">
-                    <a href="#" class="main-button">Guideline</a>
+                    <a href="../guideline/GBF_2021_Business_Plan_Guidebook.pdf" target="_blank" class="main-button">Guideline</a>
                 </div>
-            </div>-->
+            </div>
         </div>
         <!-- ***** Section Title Start ***** -->
         <div class="row" id="timeline-heading">
