@@ -23,7 +23,12 @@
     <div class="container">
         <div class="row d-flex justify-content-between">
             <div class="col-lg-12">
-                <div class="section-heading">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <video class="embed-responsive-item" src="/videos/teaser.mp4" autoplay muted loop controls></video>
+                </div>
+                <!-- video -->
+
+                <div class="section-heading pt-4">
                     <h2>What is Ganesha Business Festival ?</h2>
                     <hr>
                     <p> Ganesha Business Festival 2021 is a collaborative event between KMM ITB
@@ -48,7 +53,7 @@ held from March to April 2021. </p>
         <div class="row d-flex justify-content-between">
             <div class="col-lg-12">
                 <div class="section-heading">
-                    <h2>Visi</h2>
+                    <h2>Vision</h2>
                     <hr>
                     <p> Building the Ganesha Business Festival 2021 as a prestigious platform 
                     for development and disseminate knowledge of business with innovation for the betterment of business and society. </p>
@@ -81,6 +86,7 @@ held from March to April 2021. </p>
 </section>
 <!-- ***** Features Big Item End ***** -->
 
+<!--
 <section class="section bcc-bg" id="bcc">
     <div class="container">
         <div class="row d-flex justify-content-between">
@@ -94,9 +100,11 @@ held from March to April 2021. </p>
         </div>
     </div>
 </section>
+-->
 
 
 <!-- ***** Features Big Item Start ***** -->
+<!--
 <div id="events">
     <section class="section timeline-bg" id="about2">
         <div class="container">
@@ -138,6 +146,7 @@ held from March to April 2021. </p>
         </div>
     </section>
 </div>
+-->
 <!-- ***** Features Big Item End ***** -->
 
 

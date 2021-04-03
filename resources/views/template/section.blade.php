@@ -55,7 +55,7 @@
                                 <ul>
                                     <li><a href="/bcc/shs">Highschool</a></li>
                                     <li><a href="/bcc/undergraduate">Undergraduate</a></li>
-                                    <li><a href="/bcc/bootcamp">Bootcamp</a></li>
+                                    <li><a href="#">Bootcamp</a></li>
                                 </ul>
                             </li>
                             <li class="scroll-to-section"><a href="#timeline">Timeline</a></li>
