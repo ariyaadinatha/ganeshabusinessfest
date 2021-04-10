@@ -59,6 +59,22 @@ Provided with relevant topics of today, with the purpose to prepare participants
                             <b> Q&A Session </b>
                         </div>
                     </p>
+
+                    <div class="col-lg-12">
+                        <div class="section-heading">
+                            <h2>Speaker</h2>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 d-flex justify-content-center" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+                        <div class="card" style="width: 30rem;">
+                          <img class="card" src="/images/event/speaker/mrsy.png" alt="Card image cap">
+                            <div class="card-body text-center">
+                                <h2>Kanya Retno</h2>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
                 <div class="col-lg-12 col-md-12 col-sm-12 mobile-bottom-fix" class="event-desc" id="event2">
                     <div class="section-heading pt-5">
@@ -79,6 +95,22 @@ Provided with relevant topics of today, with the purpose to prepare participants
                         <b> Q&A Session </b>
                         </div>
                     </p>
+
+                    <div class="col-lg-12">
+                        <div class="section-heading">
+                            <h2>Speaker</h2>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 d-flex justify-content-center" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+                        <div class="card" style="width: 30rem;">
+                          <img class="card" src="/images/event/speaker/mrx.png" alt="Card image cap">
+                            <div class="card-body text-center">
+                                <h2>Ari Respati</h2>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
                 <div class="col-lg-12 col-md-12 col-sm-12 mobile-bottom-fix" class="event-desc" id="event3">
                     <div class="section-heading pt-5">
@@ -98,6 +130,22 @@ Provided with relevant topics of today, with the purpose to prepare participants
                             <b> Q&A Session </b>
                         </div>
                     </p>
+
+                    <div class="col-lg-12">
+                        <div class="section-heading">
+                            <h2>Speaker</h2>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 d-flex justify-content-center" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+                        <div class="card" style="width: 30rem;">
+                          <img class="card" src="/images/event/speaker/mrx.png" alt="Card image cap">
+                            <div class="card-body text-center">
+                                <h2>Dedi Irawan</h2>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
                 <div class="col-lg-12 col-md-12 col-sm-12 mobile-bottom-fix" class="event-desc" id="event4">
                     <div class="section-heading pt-5">
@@ -115,9 +163,24 @@ Provided with relevant topics of today, with the purpose to prepare participants
                         <b> Interactive Games & Ice Breaking </b>
                         <br> <b> Focus Group Discussion </b>
                         <br> <b> Pitching Session </b>
-
                         </div>
                     </p>
+
+                    <div class="col-lg-12">
+                        <div class="section-heading">
+                            <h2>Speaker</h2>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 d-flex justify-content-center" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+                        <div class="card" style="width: 30rem;">
+                          <img class="card" src="/images/event/speaker/mrx.png" alt="Card image cap">
+                            <div class="card-body text-center">
+                                <h2>Tommy Tjiptadjaja</h2>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -126,7 +189,7 @@ Provided with relevant topics of today, with the purpose to prepare participants
 <!-- ***** Features Big Item End ***** -->
 
 
-<!-- ***** Features Big Item Start ***** -->
+<!-- ***** Features Big Item Start ***** 
 
 
 <section class="section event-bg" id="bcc">
@@ -152,7 +215,7 @@ Provided with relevant topics of today, with the purpose to prepare participants
     </div>
 </section>
 
-
+-->
 <!-- ***** Timeline Start ***** -->
 <section class="section timeline-bg" id="timeline">
     <div class="container">

@@ -87,7 +87,7 @@ there will be judging by competent judges in the business sector.')
                     </li>
                     <li class="timeline-item">
                         <div class="timeline-info">
-                            <span>April 10 - 11, 2021</span>
+                            <span>April 24 - 25, 2021</span>
                         </div>
                         <div class="timeline-marker"></div>
                         <div class="timeline-content">
@@ -159,7 +159,7 @@ there will be judging by competent judges in the business sector.')
                         </div>
                         <div class="accordion-body">
                             <div class="content">
-                                <p>In the upcoming April, 10th and 11th of April 2021.</p>
+                                <p>In the upcoming April, 24th and 25th of April 2021.</p>
                             </div>
                         </div>
                     </article>

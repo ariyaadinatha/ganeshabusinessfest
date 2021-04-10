@@ -242,7 +242,16 @@
                     </li>
                     <li class="timeline-item">
                         <div class="timeline-info">
-                            <span>April 10, 2021</span>
+                            <span>April 11, 2021</span>
+                        </div>
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h5 class="timeline-title">Awarding Night</h5>
+                        </div>
+                    </li>
+                    <li class="timeline-item">
+                        <div class="timeline-info">
+                            <span>April 24, 2021</span>
                         </div>
                         <div class="timeline-marker"></div>
                         <div class="timeline-content">
@@ -251,20 +260,11 @@
                     </li>
                     <li class="timeline-item">
                         <div class="timeline-info">
-                            <span>April 11, 2021</span>
+                            <span>April 25, 2021</span>
                         </div>
                         <div class="timeline-marker"></div>
                         <div class="timeline-content">
                             <h5 class="timeline-title">Exhibition Day 2</h5>
-                        </div>
-                    </li>
-                    <li class="timeline-item">
-                        <div class="timeline-info">
-                            <span>April 11, 2021</span>
-                        </div>
-                        <div class="timeline-marker"></div>
-                        <div class="timeline-content">
-                            <h5 class="timeline-title">Awarding Night</h5>
                         </div>
                     </li>
                 </ul>
